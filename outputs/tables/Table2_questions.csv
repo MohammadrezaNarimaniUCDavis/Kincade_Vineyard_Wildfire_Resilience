@@ -1,0 +1,9 @@
+Subsystem,Question,Analysis unit,Model / statistic,Claim boundary
+Pre-fire water status,Does pre-fire canopy moisture/vigour track field water use?,"Vineyard field (n=4,581)",OLS + Spearman (NDMI/NDVI vs OpenET ET; AWC),"Association only; ET is water use, not metered irrigation"
+Landscape burn severity,Do vineyards burn at lower severity than wildland?,20 m dNBR pixel (vine vs wild in perimeter),Pixel means/medians; Welch t-test,Descriptive landscape contrast; unconditional
+Boundary discontinuity,Does severity change discontinuously at the vine-wild edge?,"Boundary transect point (n=2,000 segments)","Local-linear RDD, cluster-robust SE by segment","Spatial boundary-discontinuity association, NOT causal RDD (continuity fails)"
+Severity drivers,What landscape covariates covary with severity?,"250 m grid cell (n=5,097)",Spatial GAM (penalized spline) + Moran's I,Conditional association; residual autocorrelation remains
+Within-vineyard mechanism,Is field ET associated with field dNBR?,"Vineyard field (n=1,206)","Standardized OLS (dNBR on ET_z, elev_z, slope_z)",Spectral/biomass association; ET does not 'increase fire'
+Smoke exposure,How much potential overhead smoke did vineyards receive?,Vineyard field-day,Daily HMS polygon intersection,Atmospheric exposure proxy; NOT ground PM2.5 or smoke taint
+Transport access,How well connected are vineyards to the road network?,Vineyard centroid; network node/edge,osmnx graph metrics; nearest-distance joins,Geometry/topology only; no traffic volumes or evacuation sim
+Vegetation recovery,Do inside-perimeter vineyards recover more slowly?,"Vineyard field (1,327 in / 3,254 out)",Month-matched NDVI ratios; Welch t-tests,Greenness recovery; not yield or wine quality

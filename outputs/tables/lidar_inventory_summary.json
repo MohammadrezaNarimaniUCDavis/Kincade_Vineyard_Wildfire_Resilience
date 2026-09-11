@@ -1,0 +1,77 @@
+{
+  "n_opentopography_pointcloud_datasets": 14,
+  "opentopography_datasets": [
+    {
+      "name": "UMD-NASA Carbon Mapping /Sonoma County Vegetation Mapping and Lidar Program",
+      "temporal": "2013-09-28 / 2013-10-28"
+    },
+    {
+      "name": "California ARRA Lidar",
+      "temporal": "2011-03-13 / 2011-05-09"
+    },
+    {
+      "name": "Napa Watershed, CA",
+      "temporal": "2003-05-15 / 2003-06-01"
+    },
+    {
+      "name": "EarthScope Northern California Lidar Project",
+      "temporal": "2007-03-21 / 2007-04-17"
+    },
+    {
+      "name": "CA NorthCoastRanges 2 B23",
+      "temporal": "2023-09-16 / 2023-12-15"
+    },
+    {
+      "name": "CA NorthernCA 1 B22",
+      "temporal": "2022-09-13 / 2022-11-11"
+    },
+    {
+      "name": "USGS LPC CA LakeCounty 2015 LAS 2017",
+      "temporal": "2015-12-29 / 2016-02-14"
+    },
+    {
+      "name": "USGS LPC CA NoCAL Wildfires B5b 2018",
+      "temporal": "2017-12-01 / 2018-04-24"
+    },
+    {
+      "name": "USGS LPC CA FEMA R9 Russian 2017 LAS 2018",
+      "temporal": "2017-03-12 / 2017-04-02"
+    },
+    {
+      "name": "USGS LPC CA Sonoma A2 2013 LAS 2017",
+      "temporal": "2013-09-28 / 2013-11-26"
+    },
+    {
+      "name": "USGS LPC CA Sonoma A3 2013 LAS 2017",
+      "temporal": "2013-09-28 / 2013-11-26"
+    },
+    {
+      "name": "USGS LPC CA Sonoma A4 2013 LAS 2017",
+      "temporal": "2013-09-28 / 2013-11-26"
+    },
+    {
+      "name": "2009 - 2011 CA Coastal Conservancy Lidar: Coastal California",
+      "temporal": "2009-09-01 / 2011-10-01"
+    },
+    {
+      "name": "2009 - 2011 Topobathy Elevation: Coastal California (2013 merge)",
+      "temporal": "2013-10-30"
+    }
+  ],
+  "tnm_counts": {
+    "3dep_lpc": 4394,
+    "3dep_1m_dem": 94,
+    "3dep_opr": 1746,
+    "3dep_dem_10m": 5
+  },
+  "sample_dem_downloaded": true,
+  "gedi": {
+    "gee_collection": "LARSE/GEDI/GEDI02_A_002_MONTHLY",
+    "n_monthly_images_over_perimeter": 45,
+    "n_valid_rh98_pixels_in_perimeter_25m": 87601,
+    "window": [
+      "2019-04-01",
+      "2023-01-01"
+    ]
+  }
+}

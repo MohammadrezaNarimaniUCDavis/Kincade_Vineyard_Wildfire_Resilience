@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+*.tif
+*.tiff
+data/raw/gee/*.tif
+data/raw/gee/*.tiff
+data/raw/vineyards/_source/
+cache/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the paper and the Zenodo dataset."
+title: "Kincade_Vineyard_Wildfire_Resilience"
+type: software
+authors:
+  - family-names: Farajpoor
+    given-names: Parastoo
+  - family-names: Khoshnevis Ansari
+    given-names: Hanieh
+  - family-names: Ardebili Pour
+    given-names: Mahla
+  - family-names: Ghiasi
+    given-names: Mohammad Bagher
+  - family-names: Narimani
+    given-names: Mohammadreza
+version: "1.0.0"
+date-released: "2026-09-11"
+license: MIT
+repository-code: "https://github.com/MohammadrezaNarimaniUCDavis/Kincade_Vineyard_Wildfire_Resilience"
+contact:
+  - email: mnarimani@ucdavis.edu
+    family-names: Narimani
+    given-names: Mohammadreza
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.XXXXXXX"
+    description: Zenodo dataset DOI
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Farajpoor
+      given-names: Parastoo
+    - family-names: Khoshnevis Ansari
+      given-names: Hanieh
+    - family-names: Ardebili Pour
+      given-names: Mahla
+    - family-names: Ghiasi
+      given-names: Mohammad Bagher
+    - family-names: Narimani
+      given-names: Mohammadreza
+  title: "Multisource Remote Sensing and Geospatial Analysis of Vineyard Wildfire Impacts and Resilience: The 2019 Kincade Fire"
+  year: 2026

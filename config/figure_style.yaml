@@ -1,0 +1,86 @@
+# Shared journal style for Kincade Multisystem Resilience figures.
+# Visual grammar adapted from the research-group Palisades conventions;
+# semantic colors are a NEW vineyard/wildland theme (not Palisades palette).
+# Frontiers CURRENT dimensions override older project widths.
+
+fonts:
+  # Resolved at runtime: Helvetica → Arial → FreeSans → DejaVu Sans
+  # Do not redistribute font binaries from other repositories.
+  family: Helvetica
+  size_base: 8
+  size_small: 7
+  size_label: 8
+  size_title: 8
+  size_panel_label: 9
+  size_legend_title: 8
+
+lines:
+  axes_linewidth: 1.0
+  line_width: 1.15
+  grid_alpha: 0.22
+
+figure:
+  # Frontiers in Sustainability (verified 2026-08-27): 85 / 180 mm
+  width_single_cm: 8.5
+  width_double_cm: 18.0
+  max_height_cm: 22.0
+  dpi_raster: 300
+  dpi_line: 600
+
+# Semantic palette: vineyard–wildland–water–thermal–severity (colorblind-aware).
+# Distinct from Palisades blue=survived / red=destroyed narrative.
+colors:
+  vineyard: "#5E3C99"
+  wildland: "#1B7837"
+  moisture: "#01665E"
+  thermal: "#E66101"
+  severity_high: "#8C2D04"
+  severity_mod: "#CC4C02"
+  severity_low: "#FEE391"
+  smoke: "#6A3D9A"
+  soil: "#A6611A"
+  electrical: "#D95F02"
+  recovery: "#4DAC26"
+  perimeter: "#1A1A1A"
+  buffer: "#737373"
+  water: "#A6CEE3"
+  road: "#B0B0B0"
+  accent: "#B35806"
+  neutral_dark: "#252525"
+  neutral_mid: "#636363"
+  neutral_light: "#D0D0D0"
+  # Aliases for shared helpers expecting damage-like keys
+  destroyed: "#8C2D04"
+  major: "#CC4C02"
+  minor: "#FE9929"
+  affected: "#FEE391"
+  survived: "#5E3C99"
+  no_damage: "#C2A5CF"
+
+palettes:
+  vegetation_seq: "YlGn"
+  moisture_seq: "BuGn"
+  et_seq: "PuBuGn"
+  anomaly_div: "BrBG"
+  dnbr_div: "RdYlBu_r"
+  terrain_seq: "Greys"
+  density_seq: "Purples"
+  year_seq: "cividis"
+  shap_div: "PiYG_r"
+  access_seq: "YlOrBr"
+  lst_seq: "YlOrRd"
+  smoke_seq: "Purples"
+  soil_seq: "YlOrBr"
+  recovery_seq: "YlGn"
+  destruction_seq: "OrRd"
+  vineyard_seq: "Purples"
+
+maps:
+  scalebar: true
+  scalebar_location: "lower left"
+  north_arrow: true
+  north_arrow_style: arcgis_split
+  frame: "full"
+  legend_frame: true
+  basemap_alpha: 0.85
+  scalebar_km: 10.0

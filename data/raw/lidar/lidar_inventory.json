@@ -1,0 +1,2266 @@
+{
+  "aoi_bbox_wgs84": [
+    -122.95480825362783,
+    38.48237864799186,
+    -122.59717896044113,
+    38.86118012256768
+  ],
+  "query_date": "2026-08-27",
+  "opentopography_pointcloud_datasets": [
+    {
+      "name": "UMD-NASA Carbon Mapping /Sonoma County Vegetation Mapping and Lidar Program",
+      "id": "SONOMA_LIDAR",
+      "temporal": "2013-09-28 / 2013-10-28",
+      "product_available": null,
+      "host": null,
+      "doi": "OTLAS.092014.2871.1"
+    },
+    {
+      "name": "California ARRA Lidar",
+      "id": "ARRA11_USGS",
+      "temporal": "2011-03-13 / 2011-05-09",
+      "product_available": null,
+      "host": null,
+      "doi": "OTLAS.022014.32610.1"
+    },
+    {
+      "name": "Napa Watershed, CA",
+      "id": "Napa",
+      "temporal": "2003-05-15 / 2003-06-01",
+      "product_available": null,
+      "host": null,
+      "doi": "OTLAS.052010.26910.1"
+    },
+    {
+      "name": "EarthScope Northern California Lidar Project",
+      "id": "NCAL",
+      "temporal": "2007-03-21 / 2007-04-17",
+      "product_available": null,
+      "host": null,
+      "doi": "OTLAS.052008.32610.1"
+    },
+    {
+      "name": "CA NorthCoastRanges 2 B23",
+      "id": "CA_NorthCoastRanges_2_B23",
+      "temporal": "2023-09-16 / 2023-12-15",
+      "product_available": null,
+      "host": null,
+      "doi": "CA_NorthCoastRanges_2_B23"
+    },
+    {
+      "name": "CA NorthernCA 1 B22",
+      "id": "CA_NorthernCA_1_B22",
+      "temporal": "2022-09-13 / 2022-11-11",
+      "product_available": null,
+      "host": null,
+      "doi": "CA_NorthernCA_1_B22"
+    },
+    {
+      "name": "USGS LPC CA LakeCounty 2015 LAS 2017",
+      "id": "USGS_LPC_CA_LakeCounty_2015_LAS_2017",
+      "temporal": "2015-12-29 / 2016-02-14",
+      "product_available": null,
+      "host": null,
+      "doi": "USGS_LPC_CA_LakeCounty_2015_LAS_2017"
+    },
+    {
+      "name": "USGS LPC CA NoCAL Wildfires B5b 2018",
+      "id": "USGS_LPC_CA_NoCAL_Wildfires_B5b_2018",
+      "temporal": "2017-12-01 / 2018-04-24",
+      "product_available": null,
+      "host": null,
+      "doi": "USGS_LPC_CA_NoCAL_Wildfires_B5b_2018"
+    },
+    {
+      "name": "USGS LPC CA FEMA R9 Russian 2017 LAS 2018",
+      "id": "USGS_LPC_CA_FEMA_R9_Russian_2017_LAS_2018",
+      "temporal": "2017-03-12 / 2017-04-02",
+      "product_available": null,
+      "host": null,
+      "doi": "USGS_LPC_CA_FEMA_R9_Russian_2017_LAS_2018"
+    },
+    {
+      "name": "USGS LPC CA Sonoma A2 2013 LAS 2017",
+      "id": "USGS_LPC_CA_Sonoma_A2_2013_LAS_2017",
+      "temporal": "2013-09-28 / 2013-11-26",
+      "product_available": null,
+      "host": null,
+      "doi": "USGS_LPC_CA_Sonoma_A2_2013_LAS_2017"
+    },
+    {
+      "name": "USGS LPC CA Sonoma A3 2013 LAS 2017",
+      "id": "USGS_LPC_CA_Sonoma_A3_2013_LAS_2017",
+      "temporal": "2013-09-28 / 2013-11-26",
+      "product_available": null,
+      "host": null,
+      "doi": "USGS_LPC_CA_Sonoma_A3_2013_LAS_2017"
+    },
+    {
+      "name": "USGS LPC CA Sonoma A4 2013 LAS 2017",
+      "id": "USGS_LPC_CA_Sonoma_A4_2013_LAS_2017",
+      "temporal": "2013-09-28 / 2013-11-26",
+      "product_available": null,
+      "host": null,
+      "doi": "USGS_LPC_CA_Sonoma_A4_2013_LAS_2017"
+    },
+    {
+      "name": "2009 - 2011 CA Coastal Conservancy Lidar: Coastal California",
+      "id": "1124",
+      "temporal": "2009-09-01 / 2011-10-01",
+      "product_available": null,
+      "host": null,
+      "doi": "1124"
+    },
+    {
+      "name": "2009 - 2011 Topobathy Elevation: Coastal California (2013 merge)",
+      "id": "2612",
+      "temporal": "2013-10-30",
+      "product_available": null,
+      "host": null,
+      "doi": "2612"
+    }
+  ],
+  "usgs_tnm": {
+    "3dep_lpc": {
+      "total": 4394,
+      "titles": [
+        "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEH024992",
+        "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEH040992",
+        "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEH055992",
+        "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEH070993",
+        "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEH085993",
+        "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEH100993",
+        "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEH116993",
+        "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEH131993",
+        "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEH146993",
+        "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEJ024007",
+        "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEJ039008",
+        "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEJ055008",
+        "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEJ070008",
+        "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEJ085008",
+        "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEJ100008",
+        "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEJ116008",
+        "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEJ131009",
+        "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEJ146009",
+        "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH145990",
+        "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH160975"
+      ]
+    },
+    "3dep_1m_dem": {
+      "total": 94,
+      "titles": [
+        "USGS 1 Meter 10 x50y426 CA_NorthernCA_B22",
+        "USGS 1 Meter 10 x50y427 CA_NorthernCA_B22",
+        "USGS 1 Meter 10 x50y428 CA_NorthernCA_B22",
+        "USGS 1 Meter 10 x50y429 CA_NorthernCA_B22",
+        "USGS 1 Meter 10 x50y430 CA_NorthernCA_B22",
+        "USGS 1 Meter 10 x50y431 CA_LakeCounty_C16",
+        "USGS 1 Meter 10 x50y431 CA_NorthCoastRanges_B23",
+        "USGS 1 Meter 10 x50y431 CA_NorthernCA_B22",
+        "USGS 1 Meter 10 x51y426 CA_NorthernCA_B22",
+        "USGS 1 Meter 10 x51y427 CA_NorthernCA_B22",
+        "USGS 1 Meter 10 x51y428 CA_NorthernCA_B22",
+        "USGS 1 Meter 10 x51y429 CA_NorthernCA_B22",
+        "USGS 1 Meter 10 x51y430 CA_LakeCounty_C16",
+        "USGS 1 Meter 10 x51y430 CA_NorthCoastRanges_B23",
+        "USGS 1 Meter 10 x51y430 CA_NorthernCA_B22",
+        "USGS 1 Meter 10 x51y431 CA_LakeCounty_C16",
+        "USGS 1 Meter 10 x51y431 CA_NorthCoastRanges_B23",
+        "USGS 1 Meter 10 x51y431 CA_NorthernCA_B22",
+        "USGS 1 Meter 10 x52y426 CA_NorthernCA_B22",
+        "USGS 1 Meter 10 x52y427 CA_NorthernCA_B22"
+      ]
+    },
+    "3dep_opr": {
+      "total": 1746,
+      "titles": [
+        "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2262n2058",
+        "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2263n2055",
+        "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2263n2056",
+        "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2263n2057",
+        "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2263n2058",
+        "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2264n2051",
+        "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2264n2052",
+        "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2264n2053",
+        "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2264n2054",
+        "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2264n2055",
+        "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2264n2056",
+        "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2264n2057",
+        "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2264n2058",
+        "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2265n2048",
+        "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2265n2049",
+        "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2265n2050",
+        "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2265n2051",
+        "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2265n2052",
+        "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2265n2053",
+        "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2265n2054"
+      ]
+    },
+    "3dep_dem_10m": {
+      "total": 5,
+      "titles": [
+        "USGS 1/3 Arc Second n39w123 20240313",
+        "USGS 1/3 Arc Second n39w123 20250512",
+        "USGS 1/3 Arc Second n39w123 20250520",
+        "USGS 1/3 Arc Second n39w123 20260601",
+        "USGS 1/3 arc-second n39w123 1 x 1 degree"
+      ]
+    }
+  },
+  "usgs_tnm_full": {
+    "3dep_lpc": {
+      "total": 4394,
+      "items": [
+        {
+          "title": "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEH024992",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 65248199,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_FEMA_R9_Lidar_2016_D17/CA_FEMA_R9_Russian_2017/LAZ/USGS_LPC_CA_FEMA_R9_Lidar_2016_D17_10SEH024992.laz",
+          "boundingBox": {
+            "minX": -122.97159571714198,
+            "maxX": -122.95385380409942,
+            "minY": 38.84216500402513,
+            "maxY": 38.856038899402016
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEH040992",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 64063596,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_FEMA_R9_Lidar_2016_D17/CA_FEMA_R9_Russian_2017/LAZ/USGS_LPC_CA_FEMA_R9_Lidar_2016_D17_10SEH040992.laz",
+          "boundingBox": {
+            "minX": -122.95403806035205,
+            "maxX": -122.93629946722398,
+            "minY": 38.84231042919414,
+            "maxY": 38.85618170012014
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEH055992",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 60712170,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_FEMA_R9_Lidar_2016_D17/CA_FEMA_R9_Russian_2017/LAZ/USGS_LPC_CA_FEMA_R9_Lidar_2016_D17_10SEH055992.laz",
+          "boundingBox": {
+            "minX": -122.93648033233785,
+            "maxX": -122.91874506047513,
+            "minY": 38.842453202519884,
+            "maxY": 38.85632184847045
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEH070993",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 63283370,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_FEMA_R9_Lidar_2016_D17/CA_FEMA_R9_Russian_2017/LAZ/USGS_LPC_CA_FEMA_R9_Lidar_2016_D17_10SEH070993.laz",
+          "boundingBox": {
+            "minX": -122.91892253440975,
+            "maxX": -122.90119058516241,
+            "minY": 38.84259332398645,
+            "maxY": 38.85645934443736
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEH085993",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 58124528,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_FEMA_R9_Lidar_2016_D17/CA_FEMA_R9_Russian_2017/LAZ/USGS_LPC_CA_FEMA_R9_Lidar_2016_D17_10SEH085993.laz",
+          "boundingBox": {
+            "minX": -122.90136466787807,
+            "maxX": -122.88363604259551,
+            "minY": 38.84273079357831,
+            "maxY": 38.85659418800558
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEH100993",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 62025597,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_FEMA_R9_Lidar_2016_D17/CA_FEMA_R9_Russian_2017/LAZ/USGS_LPC_CA_FEMA_R9_Lidar_2016_D17_10SEH100993.laz",
+          "boundingBox": {
+            "minX": -122.88380673405317,
+            "maxX": -122.866081434084,
+            "minY": 38.842865611280146,
+            "maxY": 38.85672637916012
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEH116993",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 58940178,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_FEMA_R9_Lidar_2016_D17/CA_FEMA_R9_Russian_2017/LAZ/USGS_LPC_CA_FEMA_R9_Lidar_2016_D17_10SEH116993.laz",
+          "boundingBox": {
+            "minX": -122.86624873424549,
+            "maxX": -122.84852676093762,
+            "minY": 38.84299777707696,
+            "maxY": 38.856855917886286
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEH131993",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 69239202,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_FEMA_R9_Lidar_2016_D17/CA_FEMA_R9_Russian_2017/LAZ/USGS_LPC_CA_FEMA_R9_Lidar_2016_D17_10SEH131993.laz",
+          "boundingBox": {
+            "minX": -122.84869066976543,
+            "maxX": -122.83097202446604,
+            "minY": 38.84312729095409,
+            "maxY": 38.85698280416969
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEH146993",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 71833387,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_FEMA_R9_Lidar_2016_D17/CA_FEMA_R9_Russian_2017/LAZ/USGS_LPC_CA_FEMA_R9_Lidar_2016_D17_10SEH146993.laz",
+          "boundingBox": {
+            "minX": -122.83113254192348,
+            "maxX": -122.813417225979,
+            "minY": 38.84325415289713,
+            "maxY": 38.85710703799623
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEJ024007",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 72476255,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_FEMA_R9_Lidar_2016_D17/CA_FEMA_R9_Russian_2017/LAZ/USGS_LPC_CA_FEMA_R9_Lidar_2016_D17_10SEJ024007.laz",
+          "boundingBox": {
+            "minX": -122.97178347251034,
+            "maxX": -122.9540380958361,
+            "minY": 38.855893474082436,
+            "maxY": 38.86976737775546
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEJ039008",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 75208528,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_FEMA_R9_Lidar_2016_D17/CA_FEMA_R9_Russian_2017/LAZ/USGS_LPC_CA_FEMA_R9_Lidar_2016_D17_10SEJ039008.laz",
+          "boundingBox": {
+            "minX": -122.95422242330602,
+            "maxX": -122.93648036781526,
+            "minY": 38.85603892714726,
+            "maxY": 38.869910205863114
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEJ055008",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 71961044,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_FEMA_R9_Lidar_2016_D17/CA_FEMA_R9_Russian_2017/LAZ/USGS_LPC_CA_FEMA_R9_Lidar_2016_D17_10SEJ055008.laz",
+          "boundingBox": {
+            "minX": -122.93666130283614,
+            "maxX": -122.91892256988052,
+            "minY": 38.85618172786015,
+            "maxY": 38.87005038109427
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEJ070008",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 67246933,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_FEMA_R9_Lidar_2016_D17/CA_FEMA_R9_Russian_2017/LAZ/USGS_LPC_CA_FEMA_R9_Lidar_2016_D17_10SEJ070008.laz",
+          "boundingBox": {
+            "minX": -122.91910011241181,
+            "maxX": -122.90136470334218,
+            "minY": 38.85632187620519,
+            "maxY": 38.870187903433305
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEJ085008",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 70763137,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_FEMA_R9_Lidar_2016_D17/CA_FEMA_R9_Russian_2017/LAZ/USGS_LPC_CA_FEMA_R9_Lidar_2016_D17_10SEJ085008.laz",
+          "boundingBox": {
+            "minX": -122.9015388533441,
+            "maxX": -122.88380676951063,
+            "minY": 38.85645937216683,
+            "maxY": 38.87032277286494
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEJ100008",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 73572540,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_FEMA_R9_Lidar_2016_D17/CA_FEMA_R9_Russian_2017/LAZ/USGS_LPC_CA_FEMA_R9_Lidar_2016_D17_10SEJ100008.laz",
+          "boundingBox": {
+            "minX": -122.88397752694421,
+            "maxX": -122.86624876969628,
+            "minY": 38.85659421572981,
+            "maxY": 38.87045498937419
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEJ116008",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 78306426,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_FEMA_R9_Lidar_2016_D17/CA_FEMA_R9_Russian_2017/LAZ/USGS_LPC_CA_FEMA_R9_Lidar_2016_D17_10SEJ116008.laz",
+          "boundingBox": {
+            "minX": -122.86641613452323,
+            "maxX": -122.84869070520958,
+            "minY": 38.8567264068791,
+            "maxY": 38.87058455294633
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEJ131009",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 74515520,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_FEMA_R9_Lidar_2016_D17/CA_FEMA_R9_Russian_2017/LAZ/USGS_LPC_CA_FEMA_R9_Lidar_2016_D17_10SEJ131009.laz",
+          "boundingBox": {
+            "minX": -122.84885467739241,
+            "maxX": -122.83113257736096,
+            "minY": 38.856855945600024,
+            "maxY": 38.87071146356698
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_FEMA_R9_Lidar_2016_D17 10SEJ146009",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 68164694,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_FEMA_R9_Lidar_2016_D17/CA_FEMA_R9_Russian_2017/LAZ/USGS_LPC_CA_FEMA_R9_Lidar_2016_D17_10SEJ146009.laz",
+          "boundingBox": {
+            "minX": -122.83129315686294,
+            "maxX": -122.81357438746095,
+            "minY": 38.85698283187816,
+            "maxY": 38.87083572122203
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH145990",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 50470920,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH145990.laz",
+          "boundingBox": {
+            "minX": -122.83292392129052,
+            "maxX": -122.81560561596247,
+            "minY": 38.8396612199952,
+            "maxY": 38.85320437298364
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH160975",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 49296024,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH160975.laz",
+          "boundingBox": {
+            "minX": -122.81567514022869,
+            "maxX": -122.79835688173195,
+            "minY": 38.82611532401364,
+            "maxY": 38.83966103940034
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH160990",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 67371223,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH160990.laz",
+          "boundingBox": {
+            "minX": -122.81564027432486,
+            "maxX": -122.7983187216531,
+            "minY": 38.839632664034745,
+            "maxY": 38.85317836172793
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH175975",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 59084983,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH175975.laz",
+          "boundingBox": {
+            "minX": -122.79839478528679,
+            "maxX": -122.78107328383663,
+            "minY": 38.82608422577456,
+            "maxY": 38.839632483405964
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH175990",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 60449137,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH175990.laz",
+          "boundingBox": {
+            "minX": -122.79835665077516,
+            "maxX": -122.78103185297363,
+            "minY": 38.839601550868075,
+            "maxY": 38.85314979202776
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH190945",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 60483737,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH190945.laz",
+          "boundingBox": {
+            "minX": -122.78119717880107,
+            "maxX": -122.76387902701903,
+            "minY": 38.79901585946921,
+            "maxY": 38.812566688615995
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH190960",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 62667529,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH190960.laz",
+          "boundingBox": {
+            "minX": -122.78115583125202,
+            "maxX": -122.76383438537307,
+            "minY": 38.812533231220996,
+            "maxY": 38.82608404511165
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH190975",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 69452797,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH190975.laz",
+          "boundingBox": {
+            "minX": -122.78111445593733,
+            "maxX": -122.76378971374761,
+            "minY": 38.826050571568004,
+            "maxY": 38.83960137020539
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH190990",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 63037937,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH190990.laz",
+          "boundingBox": {
+            "minX": -122.78107305283663,
+            "maxX": -122.76374501212076,
+            "minY": 38.83956788050707,
+            "maxY": 38.853118663894016
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH205915",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 39071997,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH205915.laz",
+          "boundingBox": {
+            "minX": -122.76401254147545,
+            "maxX": -122.74669774140507,
+            "minY": 38.77194488106356,
+            "maxY": 38.785498275618494
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH205930",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 62533909,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH205930.laz",
+          "boundingBox": {
+            "minX": -122.76396798959267,
+            "maxX": -122.74664989768127,
+            "minY": 38.785462298259866,
+            "maxY": 38.79901567877206
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH205945",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 53477508,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH205945.laz",
+          "boundingBox": {
+            "minX": -122.76392340779609,
+            "maxX": -122.74660202183148,
+            "minY": 38.798979684051325,
+            "maxY": 38.812533050524046
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH205960",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 98232922,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH205960.laz",
+          "boundingBox": {
+            "minX": -122.76387879606374,
+            "maxX": -122.74655411383222,
+            "minY": 38.812497038434735,
+            "maxY": 38.826050390871245
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH205975",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 83751429,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH205975.laz",
+          "boundingBox": {
+            "minX": -122.76383415437381,
+            "maxX": -122.74650617366,
+            "minY": 38.8260143614069,
+            "maxY": 38.83956769981051
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH205990",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 53132747,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH205990.laz",
+          "boundingBox": {
+            "minX": -122.76378948270438,
+            "maxX": -122.74645820129123,
+            "minY": 38.8395316529646,
+            "maxY": 38.85308497733863
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH220900",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 66455435,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH220900.laz",
+          "boundingBox": {
+            "minX": -122.74679310174572,
+            "maxX": -122.72947836583273,
+            "minY": 38.7583887593008,
+            "maxY": 38.77194470033224
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH220915",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 57481166,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH220915.laz",
+          "boundingBox": {
+            "minX": -122.74674532215971,
+            "maxX": -122.72942729445249,
+            "minY": 38.77190618932517,
+            "maxY": 38.78546211752873
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH220930",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 55169740,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH220930.laz",
+          "boundingBox": {
+            "minX": -122.74669751049454,
+            "maxX": -122.72937618878106,
+            "minY": 38.785423587941004,
+            "maxY": 38.79897950332036
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH220945",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 75952669,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH220945.laz",
+          "boundingBox": {
+            "minX": -122.74664966672681,
+            "maxX": -122.72932504879337,
+            "minY": 38.798940955145056,
+            "maxY": 38.812496857703955
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH220960",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 84374020,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH220960.laz",
+          "boundingBox": {
+            "minX": -122.74660179083305,
+            "maxX": -122.72927387446433,
+            "minY": 38.81245829093414,
+            "maxY": 38.82601418067629
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH220975",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 64629653,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH220975.laz",
+          "boundingBox": {
+            "minX": -122.74655388278983,
+            "maxX": -122.72922266576884,
+            "minY": 38.825975595305025,
+            "maxY": 38.839531472234185
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH220990",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 68783506,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH220990.laz",
+          "boundingBox": {
+            "minX": -122.74650594257358,
+            "maxX": -122.72917142268177,
+            "minY": 38.83949286825455,
+            "maxY": 38.85304873237446
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH235870",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 47111669,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH235870.laz",
+          "boundingBox": {
+            "minX": -122.72963114369831,
+            "maxX": -122.71231976580056,
+            "minY": 38.73131262165013,
+            "maxY": 38.744871117105674
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH235885",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 53079555,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH235885.laz",
+          "boundingBox": {
+            "minX": -122.72958017499778,
+            "maxX": -122.71226550756624,
+            "minY": 38.74483009469855,
+            "maxY": 38.75838857853556
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH235900",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 49887627,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH235900.laz",
+          "boundingBox": {
+            "minX": -122.72952917208103,
+            "maxX": -122.7122112129053,
+            "minY": 38.75834753633748,
+            "maxY": 38.7719060085601
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH235915",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 53940074,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH235915.laz",
+          "boundingBox": {
+            "minX": -122.72947813492307,
+            "maxX": -122.71215688179113,
+            "minY": 38.771864946563724,
+            "maxY": 38.78542340717608
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH235930",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 66586341,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH235930.laz",
+          "boundingBox": {
+            "minX": -122.7294270634989,
+            "maxX": -122.71210251419711,
+            "minY": 38.78538232537404,
+            "maxY": 38.79894077438029
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH235945",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 66332752,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH235945.laz",
+          "boundingBox": {
+            "minX": -122.72937595778353,
+            "maxX": -122.71204811009659,
+            "minY": 38.79889967276521,
+            "maxY": 38.812458110169544
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH235960",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 85121418,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH235960.laz",
+          "boundingBox": {
+            "minX": -122.72932481775186,
+            "maxX": -122.71199366946291,
+            "minY": 38.81241698873402,
+            "maxY": 38.82597541454059
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH235975",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 67669200,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH235975.laz",
+          "boundingBox": {
+            "minX": -122.7292736433788,
+            "maxX": -122.7119391922693,
+            "minY": 38.82593427327724,
+            "maxY": 38.83949268749028
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH235990",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 74510520,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH235990.laz",
+          "boundingBox": {
+            "minX": -122.72922243463928,
+            "maxX": -122.71188467848907,
+            "minY": 38.83945152639172,
+            "maxY": 38.853009929015386
+          }
+        },
+        {
+          "title": "USGS Lidar Point Cloud CA_LakeCounty_C16 10SEH250840",
+          "pubDate": "2022-08-16",
+          "format": "LAZ",
+          "sizeInBytes": 29676614,
+          "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/CA_LakeCounty_C16/CA_LakeCounty_2015/LAZ/USGS_LPC_CA_LakeCounty_C16_10SEH250840.laz",
+          "boundingBox": {
+            "minX": -122.71233028382774,
+            "maxX": -122.69517407359633,
+            "minY": 38.70423389260452,
+            "maxY": 38.71779456285453
+          }
+        }
+      ]
+    },
+    "3dep_1m_dem": {
+      "total": 94,
+      "items": [
+        {
+          "title": "USGS 1 Meter 10 x50y426 CA_NorthernCA_B22",
+          "pubDate": "2026-03-24",
+          "format": "GeoTIFF",
+          "sizeInBytes": 397667696,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x50y426_CA_NorthernCA_B22.tif",
+          "boundingBox": {
+            "minX": -123.0,
+            "maxX": -122.885336887,
+            "minY": 38.39816533800007,
+            "maxY": 38.48834345800003
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x50y427 CA_NorthernCA_B22",
+          "pubDate": "2026-03-24",
+          "format": "GeoTIFF",
+          "sizeInBytes": 406869895,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x50y427_CA_NorthernCA_B22.tif",
+          "boundingBox": {
+            "minX": -123.0,
+            "maxX": -122.88519375599998,
+            "minY": 38.48828733500005,
+            "maxY": 38.57846424400003
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x50y428 CA_NorthernCA_B22",
+          "pubDate": "2026-03-24",
+          "format": "GeoTIFF",
+          "sizeInBytes": 393339751,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x50y428_CA_NorthernCA_B22.tif",
+          "boundingBox": {
+            "minX": -123.0,
+            "maxX": -122.88504998399998,
+            "minY": 38.57840794200007,
+            "maxY": 38.668583640000065
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x50y429 CA_NorthernCA_B22",
+          "pubDate": "2026-03-24",
+          "format": "GeoTIFF",
+          "sizeInBytes": 391205421,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x50y429_CA_NorthernCA_B22.tif",
+          "boundingBox": {
+            "minX": -123.0,
+            "maxX": -122.88490556699998,
+            "minY": 38.66852715600004,
+            "maxY": 38.75870164300005
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x50y430 CA_NorthernCA_B22",
+          "pubDate": "2026-03-24",
+          "format": "GeoTIFF",
+          "sizeInBytes": 370150332,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x50y430_CA_NorthernCA_B22.tif",
+          "boundingBox": {
+            "minX": -123.0,
+            "maxX": -122.88476050299994,
+            "minY": 38.75864497800006,
+            "maxY": 38.84881825300005
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x50y431 CA_LakeCounty_C16",
+          "pubDate": "2024-07-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 105535525,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_LakeCounty_C16/TIFF/USGS_1M_10_x50y431_CA_LakeCounty_C16.tif",
+          "boundingBox": {
+            "minX": -123.0,
+            "maxX": -122.88461478799996,
+            "minY": 38.84876140600005,
+            "maxY": 38.93893346800007
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x50y431 CA_NorthCoastRanges_B23",
+          "pubDate": "2025-05-30",
+          "format": "GeoTIFF",
+          "sizeInBytes": 345175936,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthCoastRanges_B23/TIFF/USGS_1M_10_x50y431_CA_NorthCoastRanges_B23.tif",
+          "boundingBox": {
+            "minX": -123.0,
+            "maxX": -122.88461478799996,
+            "minY": 38.84876140600005,
+            "maxY": 38.93893346800007
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x50y431 CA_NorthernCA_B22",
+          "pubDate": "2026-03-24",
+          "format": "GeoTIFF",
+          "sizeInBytes": 14850321,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x50y431_CA_NorthernCA_B22.tif",
+          "boundingBox": {
+            "minX": -123.0,
+            "maxX": -122.88461478799996,
+            "minY": 38.84876140600005,
+            "maxY": 38.93893346800007
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x51y426 CA_NorthernCA_B22",
+          "pubDate": "2026-03-24",
+          "format": "GeoTIFF",
+          "sizeInBytes": 396959067,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x51y426_CA_NorthernCA_B22.tif",
+          "boundingBox": {
+            "minX": -122.88547938,
+            "maxX": -122.77067441199995,
+            "minY": 38.39799751000004,
+            "maxY": 38.48828733500005
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x51y427 CA_NorthernCA_B22",
+          "pubDate": "2026-03-24",
+          "format": "GeoTIFF",
+          "sizeInBytes": 388395401,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x51y427_CA_NorthernCA_B22.tif",
+          "boundingBox": {
+            "minX": -122.885336887,
+            "maxX": -122.77038815399999,
+            "minY": 38.48811896800004,
+            "maxY": 38.57840794200007
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x51y428 CA_NorthernCA_B22",
+          "pubDate": "2026-03-24",
+          "format": "GeoTIFF",
+          "sizeInBytes": 395819537,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x51y428_CA_NorthernCA_B22.tif",
+          "boundingBox": {
+            "minX": -122.88519375599998,
+            "maxX": -122.77010061199996,
+            "minY": 38.578239034000035,
+            "maxY": 38.66852715600004
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x51y429 CA_NorthernCA_B22",
+          "pubDate": "2026-03-24",
+          "format": "GeoTIFF",
+          "sizeInBytes": 371547784,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x51y429_CA_NorthernCA_B22.tif",
+          "boundingBox": {
+            "minX": -122.88504998399998,
+            "maxX": -122.76981178199998,
+            "minY": 38.66835770600005,
+            "maxY": 38.75864497800006
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x51y430 CA_LakeCounty_C16",
+          "pubDate": "2024-07-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 31465873,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_LakeCounty_C16/TIFF/USGS_1M_10_x51y430_CA_LakeCounty_C16.tif",
+          "boundingBox": {
+            "minX": -122.88490556699998,
+            "maxX": -122.769521656,
+            "minY": 38.75847498500008,
+            "maxY": 38.84876140600005
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x51y430 CA_NorthCoastRanges_B23",
+          "pubDate": "2025-05-30",
+          "format": "GeoTIFF",
+          "sizeInBytes": 32192282,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthCoastRanges_B23/TIFF/USGS_1M_10_x51y430_CA_NorthCoastRanges_B23.tif",
+          "boundingBox": {
+            "minX": -122.88490556699998,
+            "maxX": -122.769521656,
+            "minY": 38.75847498500008,
+            "maxY": 38.84876140600005
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x51y430 CA_NorthernCA_B22",
+          "pubDate": "2026-03-24",
+          "format": "GeoTIFF",
+          "sizeInBytes": 331892392,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x51y430_CA_NorthernCA_B22.tif",
+          "boundingBox": {
+            "minX": -122.88490556699998,
+            "maxX": -122.769521656,
+            "minY": 38.75847498500008,
+            "maxY": 38.84876140600005
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x51y431 CA_LakeCounty_C16",
+          "pubDate": "2024-07-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 295945984,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_LakeCounty_C16/TIFF/USGS_1M_10_x51y431_CA_LakeCounty_C16.tif",
+          "boundingBox": {
+            "minX": -122.88476050299994,
+            "maxX": -122.76923022899996,
+            "minY": 38.84859086800003,
+            "maxY": 38.93887644000006
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x51y431 CA_NorthCoastRanges_B23",
+          "pubDate": "2025-05-30",
+          "format": "GeoTIFF",
+          "sizeInBytes": 335946396,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthCoastRanges_B23/TIFF/USGS_1M_10_x51y431_CA_NorthCoastRanges_B23.tif",
+          "boundingBox": {
+            "minX": -122.88476050299994,
+            "maxX": -122.76923022899996,
+            "minY": 38.84859086800003,
+            "maxY": 38.93887644000006
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x51y431 CA_NorthernCA_B22",
+          "pubDate": "2026-03-24",
+          "format": "GeoTIFF",
+          "sizeInBytes": 9294775,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x51y431_CA_NorthernCA_B22.tif",
+          "boundingBox": {
+            "minX": -122.88476050299994,
+            "maxX": -122.76923022899996,
+            "minY": 38.84859086800003,
+            "maxY": 38.93887644000006
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x52y426 CA_NorthernCA_B22",
+          "pubDate": "2026-03-24",
+          "format": "GeoTIFF",
+          "sizeInBytes": 379053407,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x52y426_CA_NorthernCA_B22.tif",
+          "boundingBox": {
+            "minX": -122.77095939499998,
+            "maxX": -122.65601321399998,
+            "minY": 38.397717801000056,
+            "maxY": 38.48811896800004
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x52y427 CA_NorthernCA_B22",
+          "pubDate": "2026-03-24",
+          "format": "GeoTIFF",
+          "sizeInBytes": 384814444,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x52y427_CA_NorthernCA_B22.tif",
+          "boundingBox": {
+            "minX": -122.77067441199995,
+            "maxX": -122.65558383399997,
+            "minY": 38.48783836000007,
+            "maxY": 38.578239034000035
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x52y428 CA_NorthernCA_B22",
+          "pubDate": "2026-03-24",
+          "format": "GeoTIFF",
+          "sizeInBytes": 381005221,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x52y428_CA_NorthernCA_B22.tif",
+          "boundingBox": {
+            "minX": -122.77038815399999,
+            "maxX": -122.65515252899996,
+            "minY": 38.577957524000055,
+            "maxY": 38.66835770600005
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x52y429 CA_LakeCounty_C16",
+          "pubDate": "2024-07-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 92496921,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_LakeCounty_C16/TIFF/USGS_1M_10_x52y429_CA_LakeCounty_C16.tif",
+          "boundingBox": {
+            "minX": -122.77010061199996,
+            "maxX": -122.65471929199998,
+            "minY": 38.66807529300007,
+            "maxY": 38.75847498500008
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x52y429 CA_NorthCoastRanges_B23",
+          "pubDate": "2025-05-30",
+          "format": "GeoTIFF",
+          "sizeInBytes": 93630695,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthCoastRanges_B23/TIFF/USGS_1M_10_x52y429_CA_NorthCoastRanges_B23.tif",
+          "boundingBox": {
+            "minX": -122.77010061199996,
+            "maxX": -122.65471929199998,
+            "minY": 38.66807529300007,
+            "maxY": 38.75847498500008
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x52y429 CA_NorthernCA_B22",
+          "pubDate": "2026-03-24",
+          "format": "GeoTIFF",
+          "sizeInBytes": 280992188,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x52y429_CA_NorthernCA_B22.tif",
+          "boundingBox": {
+            "minX": -122.77010061199996,
+            "maxX": -122.65471929199998,
+            "minY": 38.66807529300007,
+            "maxY": 38.75847498500008
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x52y430 CA_LakeCounty_C16",
+          "pubDate": "2024-07-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 289159916,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_LakeCounty_C16/TIFF/USGS_1M_10_x52y430_CA_LakeCounty_C16.tif",
+          "boundingBox": {
+            "minX": -122.76981178199998,
+            "maxX": -122.65428411099998,
+            "minY": 38.75819166600007,
+            "maxY": 38.84859086800003
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x52y430 CA_NorthCoastRanges_B23",
+          "pubDate": "2025-05-30",
+          "format": "GeoTIFF",
+          "sizeInBytes": 291469814,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthCoastRanges_B23/TIFF/USGS_1M_10_x52y430_CA_NorthCoastRanges_B23.tif",
+          "boundingBox": {
+            "minX": -122.76981178199998,
+            "maxX": -122.65428411099998,
+            "minY": 38.75819166600007,
+            "maxY": 38.84859086800003
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x52y430 CA_NorthernCA_B22",
+          "pubDate": "2026-03-24",
+          "format": "GeoTIFF",
+          "sizeInBytes": 57451409,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x52y430_CA_NorthernCA_B22.tif",
+          "boundingBox": {
+            "minX": -122.76981178199998,
+            "maxX": -122.65428411099998,
+            "minY": 38.75819166600007,
+            "maxY": 38.84859086800003
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x52y431 CA_LakeCounty_C16",
+          "pubDate": "2024-07-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 314882411,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_LakeCounty_C16/TIFF/USGS_1M_10_x52y431_CA_LakeCounty_C16.tif",
+          "boundingBox": {
+            "minX": -122.769521656,
+            "maxX": -122.65384697899998,
+            "minY": 38.84830664100008,
+            "maxY": 38.938705355000025
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x52y431 CA_NorthCoastRanges_B23",
+          "pubDate": "2025-05-30",
+          "format": "GeoTIFF",
+          "sizeInBytes": 312462464,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthCoastRanges_B23/TIFF/USGS_1M_10_x52y431_CA_NorthCoastRanges_B23.tif",
+          "boundingBox": {
+            "minX": -122.769521656,
+            "maxX": -122.65384697899998,
+            "minY": 38.84830664100008,
+            "maxY": 38.938705355000025
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x53y426 CA_NorthernCA_B22",
+          "pubDate": "2026-03-24",
+          "format": "GeoTIFF",
+          "sizeInBytes": 367347352,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x53y426_CA_NorthernCA_B22.tif",
+          "boundingBox": {
+            "minX": -122.65644067999995,
+            "maxX": -122.54135393099995,
+            "minY": 38.39732621500008,
+            "maxY": 38.48783836000007
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x53y427 CA_NorthCoastRanges_B23",
+          "pubDate": "2025-05-30",
+          "format": "GeoTIFF",
+          "sizeInBytes": 115913023,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthCoastRanges_B23/TIFF/USGS_1M_10_x53y427_CA_NorthCoastRanges_B23.tif",
+          "boundingBox": {
+            "minX": -122.65601321399998,
+            "maxX": -122.54078143799995,
+            "minY": 38.48744551500005,
+            "maxY": 38.577957524000055
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x53y427 CA_NorthernCA_B22",
+          "pubDate": "2026-03-24",
+          "format": "GeoTIFF",
+          "sizeInBytes": 266579123,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x53y427_CA_NorthernCA_B22.tif",
+          "boundingBox": {
+            "minX": -122.65601321399998,
+            "maxX": -122.54078143799995,
+            "minY": 38.48744551500005,
+            "maxY": 38.577957524000055
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x53y428 CA_LakeCounty_C16",
+          "pubDate": "2024-07-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3876600,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_LakeCounty_C16/TIFF/USGS_1M_10_x53y428_CA_LakeCounty_C16.tif",
+          "boundingBox": {
+            "minX": -122.65558383399997,
+            "maxX": -122.54020637999997,
+            "minY": 38.57756341800007,
+            "maxY": 38.66807529300007
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x53y428 CA_NorthCoastRanges_B23",
+          "pubDate": "2025-05-30",
+          "format": "GeoTIFF",
+          "sizeInBytes": 301368321,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthCoastRanges_B23/TIFF/USGS_1M_10_x53y428_CA_NorthCoastRanges_B23.tif",
+          "boundingBox": {
+            "minX": -122.65558383399997,
+            "maxX": -122.54020637999997,
+            "minY": 38.57756341800007,
+            "maxY": 38.66807529300007
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x53y428 CA_NorthernCA_B22",
+          "pubDate": "2026-03-24",
+          "format": "GeoTIFF",
+          "sizeInBytes": 79094946,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x53y428_CA_NorthernCA_B22.tif",
+          "boundingBox": {
+            "minX": -122.65558383399997,
+            "maxX": -122.54020637999997,
+            "minY": 38.57756341800007,
+            "maxY": 38.66807529300007
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x53y429 CA_LakeCounty_C16",
+          "pubDate": "2024-07-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 294630888,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_LakeCounty_C16/TIFF/USGS_1M_10_x53y429_CA_LakeCounty_C16.tif",
+          "boundingBox": {
+            "minX": -122.65515252899996,
+            "maxX": -122.53962874399997,
+            "minY": 38.66767992200005,
+            "maxY": 38.75819166600007
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x53y429 CA_NorthCoastRanges_B23",
+          "pubDate": "2025-05-30",
+          "format": "GeoTIFF",
+          "sizeInBytes": 319781901,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthCoastRanges_B23/TIFF/USGS_1M_10_x53y429_CA_NorthCoastRanges_B23.tif",
+          "boundingBox": {
+            "minX": -122.65515252899996,
+            "maxX": -122.53962874399997,
+            "minY": 38.66767992200005,
+            "maxY": 38.75819166600007
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x53y429 CA_NorthernCA_B22",
+          "pubDate": "2026-03-24",
+          "format": "GeoTIFF",
+          "sizeInBytes": 30734846,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x53y429_CA_NorthernCA_B22.tif",
+          "boundingBox": {
+            "minX": -122.65515252899996,
+            "maxX": -122.53962874399997,
+            "minY": 38.66767992200005,
+            "maxY": 38.75819166600007
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x53y430 CA_LakeCounty_C16",
+          "pubDate": "2024-07-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 343141753,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_LakeCounty_C16/TIFF/USGS_1M_10_x53y430_CA_LakeCounty_C16.tif",
+          "boundingBox": {
+            "minX": -122.65471929199998,
+            "maxX": -122.53904851899995,
+            "minY": 38.75779502600005,
+            "maxY": 38.84830664100008
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x53y430 CA_NorthCoastRanges_B23",
+          "pubDate": "2025-05-30",
+          "format": "GeoTIFF",
+          "sizeInBytes": 340378225,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthCoastRanges_B23/TIFF/USGS_1M_10_x53y430_CA_NorthCoastRanges_B23.tif",
+          "boundingBox": {
+            "minX": -122.65471929199998,
+            "maxX": -122.53904851899995,
+            "minY": 38.75779502600005,
+            "maxY": 38.84830664100008
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x53y431 CA_LakeCounty_C16",
+          "pubDate": "2024-07-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 339324146,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_LakeCounty_C16/TIFF/USGS_1M_10_x53y431_CA_LakeCounty_C16.tif",
+          "boundingBox": {
+            "minX": -122.65428411099998,
+            "maxX": -122.53846568999995,
+            "minY": 38.84790873000003,
+            "maxY": 38.93842021800003
+          }
+        },
+        {
+          "title": "USGS 1 Meter 10 x53y431 CA_NorthCoastRanges_B23",
+          "pubDate": "2025-05-30",
+          "format": "GeoTIFF",
+          "sizeInBytes": 336452221,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthCoastRanges_B23/TIFF/USGS_1M_10_x53y431_CA_NorthCoastRanges_B23.tif",
+          "boundingBox": {
+            "minX": -122.65428411099998,
+            "maxX": -122.53846568999995,
+            "minY": 38.84790873000003,
+            "maxY": 38.93842021800003
+          }
+        },
+        {
+          "title": "USGS one meter x50y426 CA Sonoma A2 2013",
+          "pubDate": "2020-03-30",
+          "format": "GeoTIFF",
+          "sizeInBytes": null,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_Sonoma_A2_2013/TIFF/USGS_one_meter_x50y426_CA_Sonoma_A2_2013.tif",
+          "boundingBox": {
+            "minX": -123.000080264,
+            "maxX": -122.885410753,
+            "minY": 38.3981111968,
+            "maxY": 38.4883975305
+          }
+        },
+        {
+          "title": "USGS one meter x50y426 CA Sonoma A3 2013",
+          "pubDate": "2020-03-30",
+          "format": "GeoTIFF",
+          "sizeInBytes": null,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_Sonoma_A3_2013/TIFF/USGS_one_meter_x50y426_CA_Sonoma_A3_2013.tif",
+          "boundingBox": {
+            "minX": -123.000080264,
+            "maxX": -122.885410753,
+            "minY": 38.3981111968,
+            "maxY": 38.4883975305
+          }
+        },
+        {
+          "title": "USGS one meter x50y426 CA Sonoma A4 2013",
+          "pubDate": "2020-03-30",
+          "format": "GeoTIFF",
+          "sizeInBytes": null,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_Sonoma_A4_2013/TIFF/USGS_one_meter_x50y426_CA_Sonoma_A4_2013.tif",
+          "boundingBox": {
+            "minX": -123.000080264,
+            "maxX": -122.885410753,
+            "minY": 38.3981111968,
+            "maxY": 38.4883975305
+          }
+        },
+        {
+          "title": "USGS one meter x50y427 CA Sonoma A2 2013",
+          "pubDate": "2020-03-30",
+          "format": "GeoTIFF",
+          "sizeInBytes": null,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_Sonoma_A2_2013/TIFF/USGS_one_meter_x50y427_CA_Sonoma_A2_2013.tif",
+          "boundingBox": {
+            "minX": -123.000068884,
+            "maxX": -122.885268175,
+            "minY": 38.4882331949,
+            "maxY": 38.5785183165
+          }
+        },
+        {
+          "title": "USGS one meter x50y427 CA Sonoma A3 2013",
+          "pubDate": "2020-03-30",
+          "format": "GeoTIFF",
+          "sizeInBytes": null,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_Sonoma_A3_2013/TIFF/USGS_one_meter_x50y427_CA_Sonoma_A3_2013.tif",
+          "boundingBox": {
+            "minX": -123.000068884,
+            "maxX": -122.885268175,
+            "minY": 38.4882331949,
+            "maxY": 38.5785183165
+          }
+        },
+        {
+          "title": "USGS one meter x50y427 CA Sonoma A4 2013",
+          "pubDate": "2020-03-30",
+          "format": "GeoTIFF",
+          "sizeInBytes": null,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_Sonoma_A4_2013/TIFF/USGS_one_meter_x50y427_CA_Sonoma_A4_2013.tif",
+          "boundingBox": {
+            "minX": -123.000068884,
+            "maxX": -122.885268175,
+            "minY": 38.4882331949,
+            "maxY": 38.5785183165
+          }
+        },
+        {
+          "title": "USGS one meter x50y428 CA Sonoma A2 2013",
+          "pubDate": "2020-03-30",
+          "format": "GeoTIFF",
+          "sizeInBytes": null,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_Sonoma_A2_2013/TIFF/USGS_one_meter_x50y428_CA_Sonoma_A2_2013.tif",
+          "boundingBox": {
+            "minX": -123.00006897,
+            "maxX": -122.885124959,
+            "minY": 38.578353802,
+            "maxY": 38.6686377111
+          }
+        },
+        {
+          "title": "USGS one meter x50y428 CA Sonoma A3 2013",
+          "pubDate": "2020-03-30",
+          "format": "GeoTIFF",
+          "sizeInBytes": null,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_Sonoma_A3_2013/TIFF/USGS_one_meter_x50y428_CA_Sonoma_A3_2013.tif",
+          "boundingBox": {
+            "minX": -123.00006897,
+            "maxX": -122.885124959,
+            "minY": 38.578353802,
+            "maxY": 38.6686377111
+          }
+        }
+      ]
+    },
+    "3dep_opr": {
+      "total": 1746,
+      "items": [
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2262n2058",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3576613,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2262n2058.tif",
+          "boundingBox": {
+            "minX": -122.59775840255415,
+            "maxX": -122.58339966703024,
+            "minY": 38.68330599889842,
+            "maxY": 38.694344619255325
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2263n2055",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3500425,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2263n2055.tif",
+          "boundingBox": {
+            "minX": -122.59929406776065,
+            "maxX": -122.58494074145953,
+            "minY": 38.65511786325076,
+            "maxY": 38.666156564928954
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2263n2056",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3533028,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2263n2056.tif",
+          "boundingBox": {
+            "minX": -122.60249930717157,
+            "maxX": -122.58814402880118,
+            "minY": 38.663692408603424,
+            "maxY": 38.67473132137527
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2263n2057",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3503347,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2263n2057.tif",
+          "boundingBox": {
+            "minX": -122.60570529885389,
+            "maxX": -122.5913480679259,
+            "minY": 38.67226687474427,
+            "maxY": 38.68330599889842
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2263n2058",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3526582,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2263n2058.tif",
+          "boundingBox": {
+            "minX": -122.60891204306519,
+            "maxX": -122.59455285909104,
+            "minY": 38.68084126184024,
+            "maxY": 38.6918805976655
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2264n2051",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3974512,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2264n2051.tif",
+          "boundingBox": {
+            "minX": -122.5976251168219,
+            "maxX": -122.58327914577049,
+            "minY": 38.61835517450439,
+            "maxY": 38.629393750253534
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2264n2052",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3874676,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2264n2052.tif",
+          "boundingBox": {
+            "minX": -122.60082854882639,
+            "maxX": -122.58648062768384,
+            "minY": 38.62692974859234,
+            "maxY": 38.6379685342426
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2264n2053",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3700793,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2264n2053.tif",
+          "boundingBox": {
+            "minX": -122.6040327323038,
+            "maxX": -122.5896828605825,
+            "minY": 38.63550424267983,
+            "maxY": 38.64654323851942
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2264n2054",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3458814,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2264n2054.tif",
+          "boundingBox": {
+            "minX": -122.6072376675113,
+            "maxX": -122.5928858447234,
+            "minY": 38.644078656933495,
+            "maxY": 38.65511786325076
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2264n2055",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3468783,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2264n2055.tif",
+          "boundingBox": {
+            "minX": -122.61044335470616,
+            "maxX": -122.59608958036371,
+            "minY": 38.6526529915201,
+            "maxY": 38.663692408603424
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2264n2056",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3474546,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2264n2056.tif",
+          "boundingBox": {
+            "minX": -122.61364979414583,
+            "maxX": -122.59929406776065,
+            "minY": 38.66122724660632,
+            "maxY": 38.67226687474427
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2264n2057",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3542480,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2264n2057.tif",
+          "boundingBox": {
+            "minX": -122.61685698608778,
+            "maxX": -122.60249930717157,
+            "minY": 38.669801422359036,
+            "maxY": 38.68084126184024
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2264n2058",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3544156,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2264n2058.tif",
+          "boundingBox": {
+            "minX": -122.62006493078961,
+            "maxX": -122.60570529885389,
+            "minY": 38.67837551894507,
+            "maxY": 38.689415570058294
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2265n2048",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3627809,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2265n2048.tif",
+          "boundingBox": {
+            "minX": -122.59915946983452,
+            "maxX": -122.5848188983939,
+            "minY": 38.59016712238912,
+            "maxY": 38.60120578566071
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2265n2049",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3580585,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2265n2049.tif",
+          "boundingBox": {
+            "minX": -122.60236184711965,
+            "maxX": -122.58801932707607,
+            "minY": 38.59874164797952,
+            "maxY": 38.609780520249366
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2265n2050",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3907426,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2265n2050.tif",
+          "boundingBox": {
+            "minX": -122.60556497533719,
+            "maxX": -122.59122050620364,
+            "minY": 38.60731609294838,
+            "maxY": 38.61835517450439
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2265n2051",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3849883,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2265n2051.tif",
+          "boundingBox": {
+            "minX": -122.60876885474411,
+            "maxX": -122.5944224360333,
+            "minY": 38.61589045746223,
+            "maxY": 38.62692974859234
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2265n2052",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3805098,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2265n2052.tif",
+          "boundingBox": {
+            "minX": -122.61197348559739,
+            "maxX": -122.5976251168219,
+            "minY": 38.62446474168752,
+            "maxY": 38.63550424267983
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2265n2053",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3799416,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2265n2053.tif",
+          "boundingBox": {
+            "minX": -122.61517886815412,
+            "maxX": -122.60082854882639,
+            "minY": 38.63303894579086,
+            "maxY": 38.644078656933495
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2265n2054",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3630150,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2265n2054.tif",
+          "boundingBox": {
+            "minX": -122.61838500267152,
+            "maxX": -122.6040327323038,
+            "minY": 38.64161306993879,
+            "maxY": 38.6526529915201
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2265n2055",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3291366,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2265n2055.tif",
+          "boundingBox": {
+            "minX": -122.62159188940693,
+            "maxX": -122.6072376675113,
+            "minY": 38.650187114298,
+            "maxY": 38.66122724660632
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2265n2056",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3276808,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2265n2056.tif",
+          "boundingBox": {
+            "minX": -122.62479952861783,
+            "maxX": -122.61044335470616,
+            "minY": 38.65876107903524,
+            "maxY": 38.669801422359036
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2265n2057",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3427329,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2265n2057.tif",
+          "boundingBox": {
+            "minX": -122.62800792056177,
+            "maxX": -122.61364979414583,
+            "minY": 38.66733496431716,
+            "maxY": 38.67837551894507
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2265n2058",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3520478,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2265n2058.tif",
+          "boundingBox": {
+            "minX": -122.6312170654964,
+            "maxX": -122.61685698608778,
+            "minY": 38.67590877031058,
+            "maxY": 38.68694953653136
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2266n2044",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3813143,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2266n2044.tif",
+          "boundingBox": {
+            "minX": -122.59749206766631,
+            "maxX": -122.58315883841317,
+            "minY": 38.55340451459685,
+            "maxY": 38.564443060225074
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2266n2045",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3799274,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2266n2045.tif",
+          "boundingBox": {
+            "minX": -122.6006926407684,
+            "maxX": -122.58635746488517,
+            "minY": 38.56197907524088,
+            "maxY": 38.57301782867823
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2266n2046",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3873740,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2266n2046.tif",
+          "boundingBox": {
+            "minX": -122.60389396400659,
+            "maxX": -122.58955684100695,
+            "minY": 38.570553554476895,
+            "maxY": 38.5815925160108
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2266n2047",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3749315,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2266n2047.tif",
+          "boundingBox": {
+            "minX": -122.60709603763736,
+            "maxX": -122.59275696703479,
+            "minY": 38.579127952471104,
+            "maxY": 38.59016712238912
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2266n2048",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3655441,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2266n2048.tif",
+          "boundingBox": {
+            "minX": -122.61029886191733,
+            "maxX": -122.59595784322514,
+            "minY": 38.58770226938983,
+            "maxY": 38.59874164797952
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2266n2049",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3301218,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2266n2049.tif",
+          "boundingBox": {
+            "minX": -122.61350243710318,
+            "maxX": -122.59915946983452,
+            "minY": 38.59627650539933,
+            "maxY": 38.60731609294838
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2266n2050",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3708451,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2266n2050.tif",
+          "boundingBox": {
+            "minX": -122.61670676345177,
+            "maxX": -122.60236184711965,
+            "minY": 38.604850660665996,
+            "maxY": 38.61589045746223
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2266n2051",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3800761,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2266n2051.tif",
+          "boundingBox": {
+            "minX": -122.61991184122,
+            "maxX": -122.60556497533719,
+            "minY": 38.613424735356226,
+            "maxY": 38.62446474168752
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2266n2052",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3843697,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2266n2052.tif",
+          "boundingBox": {
+            "minX": -122.62311767066495,
+            "maxX": -122.60876885474411,
+            "minY": 38.62199872963638,
+            "maxY": 38.63303894579086
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2266n2053",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3810860,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2266n2053.tif",
+          "boundingBox": {
+            "minX": -122.62632425204376,
+            "maxX": -122.61197348559739,
+            "minY": 38.63057264367303,
+            "maxY": 38.64161306993879
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2266n2054",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3616283,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2266n2054.tif",
+          "boundingBox": {
+            "minX": -122.62953158561373,
+            "maxX": -122.61517886815412,
+            "minY": 38.63914647763273,
+            "maxY": 38.650187114298
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2266n2055",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3537167,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2266n2055.tif",
+          "boundingBox": {
+            "minX": -122.63273967163225,
+            "maxX": -122.61838500267152,
+            "minY": 38.64772023168209,
+            "maxY": 38.65876107903524
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2266n2056",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3494856,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2266n2056.tif",
+          "boundingBox": {
+            "minX": -122.63594851035683,
+            "maxX": -122.62159188940693,
+            "minY": 38.65629390598763,
+            "maxY": 38.66733496431716
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2266n2057",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3436949,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2266n2057.tif",
+          "boundingBox": {
+            "minX": -122.63915810204507,
+            "maxX": -122.62479952861783,
+            "minY": 38.664867500716156,
+            "maxY": 38.67590877031058
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2267n2042",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3452843,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2267n2042.tif",
+          "boundingBox": {
+            "minX": -122.6022246309882,
+            "maxX": -122.58789484661361,
+            "minY": 38.533791026135326,
+            "maxY": 38.54482987237871
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2267n2043",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3747790,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2267n2043.tif",
+          "boundingBox": {
+            "minX": -122.60542490085133,
+            "maxX": -122.59109317084513,
+            "minY": 38.542365461157544,
+            "maxY": 38.55340451459685
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2267n2044",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3720702,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2267n2044.tif",
+          "boundingBox": {
+            "minX": -122.60862592056775,
+            "maxX": -122.59429224444398,
+            "minY": 38.5509398143185,
+            "maxY": 38.56197907524088
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2267n2045",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3877070,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2267n2045.tif",
+          "boundingBox": {
+            "minX": -122.61182769039377,
+            "maxX": -122.59749206766631,
+            "minY": 38.55951408578415,
+            "maxY": 38.570553554476895
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2267n2046",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3932086,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2267n2046.tif",
+          "boundingBox": {
+            "minX": -122.61503021058581,
+            "maxX": -122.6006926407684,
+            "minY": 38.56808827572071,
+            "maxY": 38.579127952471104
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2267n2047",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3876479,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2267n2047.tif",
+          "boundingBox": {
+            "minX": -122.6182334814004,
+            "maxX": -122.60389396400659,
+            "minY": 38.57666238429432,
+            "maxY": 38.58770226938983
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2267n2048",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3837919,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2267n2048.tif",
+          "boundingBox": {
+            "minX": -122.62143750309421,
+            "maxX": -122.60709603763736,
+            "minY": 38.58523641167117,
+            "maxY": 38.59627650539933
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2267n2049",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3445763,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2267n2049.tif",
+          "boundingBox": {
+            "minX": -122.62464227592402,
+            "maxX": -122.61029886191733,
+            "minY": 38.59381035801742,
+            "maxY": 38.604850660665996
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2267n2050",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3729249,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2267n2050.tif",
+          "boundingBox": {
+            "minX": -122.62784780014668,
+            "maxX": -122.61350243710318,
+            "minY": 38.602384223499435,
+            "maxY": 38.613424735356226
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2267n2051",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3818825,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2267n2051.tif",
+          "boundingBox": {
+            "minX": -122.6310540760192,
+            "maxX": -122.61670676345177,
+            "minY": 38.610958008283646,
+            "maxY": 38.62199872963638
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2267n2052",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3790305,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2267n2052.tif",
+          "boundingBox": {
+            "minX": -122.63426110379865,
+            "maxX": -122.61991184122,
+            "minY": 38.61953171253627,
+            "maxY": 38.63057264367303
+          }
+        },
+        {
+          "title": "USGS Original Product Resolution CA NoCAL Wildfires B5b 2018 w2267n2053",
+          "pubDate": "2020-03-18",
+          "format": "GeoTIFF",
+          "sizeInBytes": 3729513,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/CA_NoCAL_Wildfires_B5b_2018/TIFF/USGS_OPR_CA_NoCAL_Wildfires_B5b_2018_w2267n2053.tif",
+          "boundingBox": {
+            "minX": -122.6374688837423,
+            "maxX": -122.62311767066495,
+            "minY": 38.6281053364238,
+            "maxY": 38.63914647763273
+          }
+        }
+      ]
+    },
+    "3dep_dem_10m": {
+      "total": 5,
+      "items": [
+        {
+          "title": "USGS 1/3 Arc Second n39w123 20240313",
+          "pubDate": "2024-03-13",
+          "format": "GeoTIFF",
+          "sizeInBytes": 492009114,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/13/TIFF/historical/n39w123/USGS_13_n39w123_20240313.tif",
+          "boundingBox": {
+            "minX": -123.00055555579371,
+            "maxX": -121.99944444360563,
+            "minY": 37.99944444350717,
+            "maxY": 39.00055555659458
+          }
+        },
+        {
+          "title": "USGS 1/3 Arc Second n39w123 20250512",
+          "pubDate": "2025-05-12",
+          "format": "GeoTIFF",
+          "sizeInBytes": 490728433,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/13/TIFF/historical/n39w123/USGS_13_n39w123_20250512.tif",
+          "boundingBox": {
+            "minX": -123.00055555579371,
+            "maxX": -121.99944444360563,
+            "minY": 37.99944444350717,
+            "maxY": 39.00055555659458
+          }
+        },
+        {
+          "title": "USGS 1/3 Arc Second n39w123 20250520",
+          "pubDate": "2025-07-08",
+          "format": "GeoTIFF",
+          "sizeInBytes": 490614304,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/13/TIFF/historical/n39w123/USGS_13_n39w123_20250520.tif",
+          "boundingBox": {
+            "minX": -123.00055555579371,
+            "maxX": -121.99944444360563,
+            "minY": 37.99944444350717,
+            "maxY": 39.00055555659458
+          }
+        },
+        {
+          "title": "USGS 1/3 Arc Second n39w123 20260601",
+          "pubDate": "2026-06-01",
+          "format": "GeoTIFF",
+          "sizeInBytes": 488805186,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/13/TIFF/historical/n39w123/USGS_13_n39w123_20260601.tif",
+          "boundingBox": {
+            "minX": -123.00055555579371,
+            "maxX": -121.99944444360563,
+            "minY": 37.99944444350717,
+            "maxY": 39.00055555659458
+          }
+        },
+        {
+          "title": "USGS 1/3 arc-second n39w123 1 x 1 degree",
+          "pubDate": "2020-03-17",
+          "format": "GeoTIFF",
+          "sizeInBytes": 491530177,
+          "downloadURL": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/13/TIFF/historical/n39w123/USGS_13_n39w123_20200317.tif",
+          "boundingBox": {
+            "minX": -123.000555555794,
+            "maxX": -121.999444443606,
+            "minY": 37.9994444435072,
+            "maxY": 39.0005555565946
+          }
+        }
+      ]
+    }
+  },
+  "sample_dem_download": {
+    "path": "data\\raw\\lidar\\sample_3dep_dem.tif",
+    "source_url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/CA_NorthernCA_B22/TIFF/USGS_1M_10_x50y426_CA_NorthernCA_B22.tif",
+    "window_px": [
+      512,
+      512
+    ],
+    "valid_min": 151.94705200195312,
+    "valid_max": 224.95899963378906
+  },
+  "gedi_gee": {
+    "gee_collection": "LARSE/GEDI/GEDI02_A_002_MONTHLY",
+    "n_monthly_images_over_perimeter": 45,
+    "n_valid_rh98_pixels_in_perimeter_25m": 87601,
+    "window": [
+      "2019-04-01",
+      "2023-01-01"
+    ]
+  }
+}

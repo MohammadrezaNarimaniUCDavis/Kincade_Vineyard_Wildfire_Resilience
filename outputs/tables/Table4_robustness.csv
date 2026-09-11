@@ -1,0 +1,10 @@
+Diagnostic / test,Result,Interpretation,Planning implication
+Bandwidth sensitivity (tau),h30 +0.045; h60 -0.018; h100 -0.017; h150 -0.011; h300 -0.004 (p=0.20),Sign flips at very small h; stable negative 60-150 m; attenuates by 300 m,Boundary severity contrast is scale-dependent; report multiple bandwidths
+Covariate continuity at boundary,Slope differs strongly (p~1e-36); elevation balanced (p=0.83),Boundary is not continuous in terrain -> RDD identification fails,"Interpret as boundary-discontinuity association, not causal effect"
+Donut hole (exclude +/-h),"tau = +0.0068, p=0.10 at h=100 m",Contrast is driven by the immediate edge; null away from it,Effect is an edge phenomenon; avoid over-generalizing
+Placebo boundary,"tau = +0.062, p<1e-300 (large, wrong-signed)",Placebo is non-null -> background spatial trend present,Strengthens caution; supports association-only language
+Spatial GAM residual autocorrelation,Moran's I = 0.519 (p_sim=0.001),Unmodeled spatial structure remains; SEs optimistic,"Coefficients are conditional associations, not effects"
+Simpson / confounding contrast,Unconditional vine<<wild (0.130 vs 0.337); conditional vineyard_frac +0.138,Sign reversal after conditioning on terrain/position/ET,Vineyards are not universal firebreaks; context matters
+Cross-sensor severity check,Landsat-8 dNBR mean 0.086 vs Sentinel-2 0.082 (AOI),Independent sensors agree on landscape mean,Severity signal is robust to sensor choice
+Recovery persistence,Inside deficit grows 2020 (p=4.4e-5) -> 2021 (p=2.3e-10),"Recovery gap widens, not closes, by year 2",Post-fire vineyard monitoring should extend >=2 seasons
+Event-day 3-D fuels,No 2019 Sonoma airborne collect; GEDI is 2019-2023 baseline,"Vertical fuels are structural baseline, not event-day",Motivates routine pre-fire lidar over working landscapes

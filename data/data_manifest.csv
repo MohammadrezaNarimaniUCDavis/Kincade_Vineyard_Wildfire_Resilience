@@ -1,0 +1,32 @@
+dataset_id,path,source,date,size_bytes,checksum_md5,notes
+fire_perimeter_gpkg,data\raw\fire\kincade_perimeter.gpkg,https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/InterAgencyFirePerimeterHistory_All_Years_View/FeatureServer/0,2026-08-27,225280,26683dbc02cada6bb9ad7f0386574957,Kincade 2019 perimeter
+fire_perimeter_geojson,data\raw\fire\kincade_perimeter.geojson,https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/InterAgencyFirePerimeterHistory_All_Years_View/FeatureServer/0,2026-08-27,365249,35d31032c5373aad0361df68d23967dc,Kincade 2019 perimeter
+fire_perimeter_summary,data\raw\fire\kincade_perimeter_summary.json,https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/InterAgencyFirePerimeterHistory_All_Years_View/FeatureServer/0,2026-08-27,857,0ac8f233a4d0f9000f2a0318b62a33f2,
+dins_points_gpkg,data\raw\dins\kincade_dins.gpkg,https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/POSTFIRE_MASTER_DATA_SHARE/FeatureServer/0,2026-08-27,884736,aef0be44b39c24d053e27fb07bc2ed09,Kincade DINS damage points
+dins_points_geojson,data\raw\dins\kincade_dins.geojson,https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/POSTFIRE_MASTER_DATA_SHARE/FeatureServer/0,2026-08-27,2295296,0eedf8f6bed20539bdd44d313f0184fe,Kincade DINS damage points
+dins_summary,data\raw\dins\dins_summary.json,https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/POSTFIRE_MASTER_DATA_SHARE/FeatureServer/0,2026-08-27,1437,710647280c63dcd8dbb2ed8b778eda0c,
+vineyards_gpkg,data\raw\vineyards\kincade_vineyards.gpkg,https://data.cnra.ca.gov/dataset/6c3d65e3-35bb-49e1-a51e-49d5a2cf09a9/resource/519a6ac2-77f5-4da6-85f3-ada74d7eddee/download/i15_crop_mapping_2019_gdb.zip,2026-08-27,4124672,78db3b7c1a2ce241ed391444ac96b3b8,DWR 2019 vineyards clipped to Kincade+5km
+vineyards_geojson,data\raw\vineyards\kincade_vineyards.geojson,https://data.cnra.ca.gov/dataset/6c3d65e3-35bb-49e1-a51e-49d5a2cf09a9/resource/519a6ac2-77f5-4da6-85f3-ada74d7eddee/download/i15_crop_mapping_2019_gdb.zip,2026-08-27,9217732,9f87ce63c9a314ee827f500c27af9170,DWR 2019 vineyards clipped to Kincade+5km
+vineyards_summary,data\raw\vineyards\vineyards_summary.json,https://data.cnra.ca.gov/dataset/6c3d65e3-35bb-49e1-a51e-49d5a2cf09a9/resource/519a6ac2-77f5-4da6-85f3-ada74d7eddee/download/i15_crop_mapping_2019_gdb.zip,2026-08-27,1292,541b354c3b2413a7b373fc121623fb16,
+dem_3dep_10m,data\raw\gee\dem_3dep_10m.tif,GEE USGS/3DEP/10m,2026-08-27,45930481,954682ead6517323b46ec4b9fef6c2f8,"10 m DEM, EPSG:26910, Kincade+5km AOI"
+s2_burn_severity,data\raw\gee\s2_burn_severity.tif,GEE COPERNICUS/S2_SR_HARMONIZED,2026-08-27,48402330,dde867e0dd7ce95797aad584ac222131,"Bands: NBR_pre,NBR_post,dNBR,RdNBR @20m"
+landsat8_burn_severity,data\raw\gee\landsat8_burn_severity.tif,GEE LANDSAT/LC08/C02/T1_L2,2026-08-27,16006928,122c13b1a75ea0173c4669226750ea2c,"Bands: NBR_pre,NBR_post,dNBR @30m"
+openet_monthly_2019,data\raw\gee\openet_monthly_2019.tif,GEE projects/openet/assets/ensemble/conus/gridmet/monthly/v2_1,2026-08-27,13201077,5126ea6d3db48578fa8e26f649f4e532,"Monthly ET (mm) Apr-Oct 2019, band et_ensemble_mad @30m; bands=['ET_2019_04', 'ET_2019_05', 'ET_2019_06', 'ET_2019_07', 'ET_2019_08', 'ET_2019_09', 'ET_2019_10']"
+openet_vineyard_monthly,data\raw\gee\openet_vineyard_monthly.csv,GEE projects/openet/assets/ensemble/conus/gridmet/monthly/v2_1,2026-08-27,630615,8936713b0a737a6c11518cd377a6c746,Zonal mean monthly ET per vineyard field
+gridmet_point_geyserville,data\raw\weather\gridmet_point_geyserville.csv,GEE IDAHO_EPSCOR/GRIDMET,2026-08-28,6694,b0b573951672fa5ad36331a3ce2fdd33,"Daily fire-weather at study point, event window"
+gridmet_aoi_mean_daily,data\raw\weather\gridmet_aoi_mean_daily.csv,GEE IDAHO_EPSCOR/GRIDMET,2026-08-28,7235,49c81642b72850998f62faa6d27b3aea,"AOI-mean daily fire-weather, event window"
+gridmet_wind_daily,data\raw\weather\gridmet_wind_daily.tif,GEE IDAHO_EPSCOR/GRIDMET,2026-08-28,5878,eb06e43c82dc8ad3d313aa40928c30dc,"Daily max wind speed (vs, m/s) raster stack @4km"
+ssurgo_gpkg,data\raw\soils\kincade_ssurgo.gpkg,https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest,2026-08-27,8896512,4ce9cd14ac225ed685de0c766634140d,SSURGO mapunits Kincade+5km
+ssurgo_geojson,data\raw\soils\kincade_ssurgo.geojson,https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest,2026-08-27,20492748,d550668280284a980e74c43ce1ae3890,SSURGO mapunits Kincade+5km
+ssurgo_summary,data\raw\soils\ssurgo_summary.json,https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest,2026-08-27,531,59e348e9f2aff70a8699ef757149d6e2,
+gee_burn_severity_summary,data\raw\gee\burn_severity_summary.json,Google Earth Engine,2026-08-27,658,cb9b01db62c585609272f6589e7fde18,auto-added by finalize
+gee_dem_summary,data\raw\gee\dem_summary.json,Google Earth Engine,2026-08-27,309,8091c85d31effb45d3295b652cec0fe5,auto-added by finalize
+gee_openet_summary,data\raw\gee\openet_summary.json,Google Earth Engine,2026-08-27,533,395ed069283472a650833affd987a70d,auto-added by finalize
+vineyards_i15_crop_mapping_2019_gdb,data\raw\vineyards\_source\i15_crop_mapping_2019_gdb.zip,DWR i15 Statewide Crop Mapping 2019 (data.cnra.ca.gov),2026-08-27,85891531,3cd86d04a750577f55dd4fbbc1124264,source cache (statewide zip)
+weather_gridmet_summary,data\raw\weather\gridmet_summary.json,GEE IDAHO_EPSCOR/GRIDMET,2026-08-27,437,d8b66cd5864b293fa70458dc02153768,auto-added by finalize
+D09_prefire_rgb,data\raw\gee\s2_prefire_rgb.tif,Copernicus S2 SR Harmonized via GEE,2019-09-01..2019-10-22,24630518,0ec81c74629dc41013cb602fe54add9d,B4/B3/B2 median true color
+D09_prefire_swir,data\raw\gee\s2_prefire_swir.tif,Copernicus S2 SR Harmonized via GEE,2019-09-01..2019-10-22,25341466,f80443fc045b50063337da44b01aea18,B12/B11/B4 median SWIR false color
+D09_postfire_rgb,data\raw\gee\s2_postfire_rgb.tif,Copernicus S2 SR Harmonized via GEE,2019-11-10..2019-12-15,23270390,4cf442e0d5f19a4419870db20928b697,B4/B3/B2 median true color
+D09_postfire_swir,data\raw\gee\s2_postfire_swir.tif,Copernicus S2 SR Harmonized via GEE,2019-11-10..2019-12-15,25288478,8f746d37078d4db26bc346224994a3db,B12/B11/B4 median SWIR false color
+D09_active_rgb,data\raw\gee\s2_activefire_rgb_20191027.tif,Copernicus S2 SR Harmonized via GEE,20191027,24997622,025cd590edb6e12e81572c5a807cdf21,Mosaic 4 granules; smoke retained
+D09_active_swir,data\raw\gee\s2_activefire_swir_20191027.tif,Copernicus S2 SR Harmonized via GEE,20191027,24986054,b06a99eb1f81195096a95424185e6962,Mosaic 4 granules; smoke retained

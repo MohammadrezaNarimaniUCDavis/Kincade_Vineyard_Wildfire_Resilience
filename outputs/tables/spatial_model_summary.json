@@ -1,0 +1,58 @@
+{
+  "model": "spatial_gam_penalized_spline",
+  "label": "Spatial GAM / penalized spline (pygam LinearGAM)",
+  "n_perim_cells": 5097,
+  "n_analysis_cells": 5097,
+  "grid_m": 250,
+  "response": "S2 dNBR",
+  "spatial_smooth": "s(x_norm, n_splines=20) + s(y_norm, n_splines=20)",
+  "covariates": [
+    "vineyard_frac",
+    "elev",
+    "slope",
+    "et_mean"
+  ],
+  "pseudo_r2_expl_dev": 0.8976703704444315,
+  "r2_classic": 0.89767,
+  "rmse_dnbr": 0.054593,
+  "linear_coefficients": {
+    "vineyard_frac": {
+      "coef": 0.138261015104281,
+      "se": 0.0052287412909110455,
+      "ci_lo_95": 0.12801268217409534,
+      "ci_hi_95": 0.14850934803446664,
+      "p_value": 1.1102230246251565e-16
+    },
+    "elev": {
+      "coef": 5.500774420440696e-05,
+      "se": 8.20750768024946e-06,
+      "ci_lo_95": 3.892102915111802e-05,
+      "ci_hi_95": 7.10944592576959e-05,
+      "p_value": 2.277988908616635e-11
+    },
+    "slope": {
+      "coef": 0.0005781838269703934,
+      "se": 0.000205339651191528,
+      "ci_lo_95": 0.00017571811063499856,
+      "ci_hi_95": 0.0009806495433057883,
+      "p_value": 0.004885273912014765
+    },
+    "et_mean": {
+      "coef": 0.007591721017277062,
+      "se": 4.3500710177332306e-05,
+      "ci_lo_95": 0.0075064596253294905,
+      "ci_hi_95": 0.007676982409224633,
+      "p_value": 1.1102230246251565e-16
+    }
+  },
+  "moran_residuals": {
+    "moran_I": 0.5190581370860858,
+    "moran_EI": -0.00019623233908948196,
+    "moran_z_sim": 79.90239454858667,
+    "moran_p_sim": 0.001,
+    "k_neighbors": 8
+  },
+  "et_available": true,
+  "timestamp": "2026-08-27T18:52:13.604659+00:00",
+  "crs": "EPSG:26910"
+}

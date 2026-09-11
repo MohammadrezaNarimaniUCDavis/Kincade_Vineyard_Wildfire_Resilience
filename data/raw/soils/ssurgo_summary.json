@@ -1,0 +1,24 @@
+{
+  "source": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+  "survey": "USDA NRCS SSURGO via Soil Data Access",
+  "n_polygons": 2517,
+  "n_mapunits": 253,
+  "attributes": [
+    "mukey",
+    "mupolygonkey",
+    "muname",
+    "drainage_class",
+    "awc_0_100cm",
+    "awc_0_150cm",
+    "slope_pct",
+    "hydrologic_group",
+    "flooding_freq",
+    "bedrock_depth_min"
+  ],
+  "aoi_bbox_wgs84": [
+    -122.95480825362783,
+    38.48237864799186,
+    -122.59717896044113,
+    38.86118012256768
+  ]
+}

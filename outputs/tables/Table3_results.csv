@@ -1,0 +1,28 @@
+Metric,Value,Unit,Uncertainty / test,Source
+Vineyard fields in download AOI (5 km),"4,581",fields,-,vineyards_summary.json
+Vineyard area in download AOI (5 km),"8,813.2",ha,-,vineyards_summary.json
+Vineyard fields in analysis AOI (fire+2 km),"2,622",fields,-,landscape_severity_summary.json
+Vineyard area in analysis AOI (fire+2 km),"5,798.3",ha,-,landscape_severity_summary.json
+"Mean dNBR, vineyard (in perimeter)",0.130,dNBR,median 0.127,landscape_severity_summary.json
+"Mean dNBR, wildland (in perimeter)",0.337,dNBR,"median 0.284; t=-109.5, p<1e-300",landscape_severity_summary.json
+"Boundary contrast tau (h=100 m, primary)",-0.0166,dNBR,SE 0.0031; p=6.0e-8,table_rdd_bandwidth.csv
+Pre-fire NDMI (vineyard mean),0.015,index,SD 0.077,prefire_ndmi_et_summary.json
+Pre-fire NDVI (vineyard mean),0.439,index,-,prefire_ndmi_et_summary.json
+Growing-season ET (vineyard mean),470.3,mm,-,prefire_ndmi_et_summary.json
+NDMI-ET correlation,0.567,Pearson r,p<1e-300,table_prefire_ndmi_et.csv
+NDVI-ET correlation,0.639,Pearson r,p<1e-300,table_prefire_ndmi_et.csv
+AWC(0-100cm)-NDMI correlation,0.028,Pearson r,p=0.060 (n.s.),table_prefire_ndmi_et.csv
+Within-vineyard ET_z coefficient on dNBR,+0.0384,dNBR / SD,"SE 0.0031; p<1e-3; n=1,206",table_mechanism_et.csv
+Spatial GAM vineyard_frac coefficient,+0.138,dNBR / unit,"95% CI [0.128, 0.149]",table_spatial_gam.csv
+Spatial GAM ET_mean coefficient,+0.0076,dNBR / unit,"95% CI [0.0075, 0.0077]",table_spatial_gam.csv
+Spatial GAM pseudo-R2 (explained deviance),0.898,proportion,"RMSE 0.055; n=5,097",spatial_model_summary.json
+GAM residual Moran's I,0.519,Moran I,p_sim=0.001,spatial_model_summary.json
+Days with overhead smoke over AOI,9,of 19 days,-,smoke_vineyard_summary.json
+Mean potential smoke-days per field,7.78,days,max 9; all fields >=1,smoke_vineyard_summary.json
+Total vineyard hectare-smoke-days,"69,101.6",ha-days,-,smoke_vineyard_summary.json
+"NDVI 2019->2021 ratio, inside perimeter",0.815,ratio,"n=1,327",table_recovery_tests.csv
+"NDVI 2019->2021 ratio, outside perimeter",0.854,ratio,"n=3,254; diff p=2.3e-10",table_recovery_tests.csv
+Total road length (2019 OSM drive network),"1,581.9",km,major 321.6 km,table_network_metrics.json
+Dead-end node fraction,34.2,%,-,table_network_metrics.json
+Median vineyard distance to major road,719.5,m,"mean 1,204 m",table_network_metrics.json
+GEDI valid RH98 pixels in perimeter,"87,601",25 m pixels,45 monthly scenes,lidar_inventory_summary.json

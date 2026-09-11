@@ -1,0 +1,40 @@
+{
+  "source_url": "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/InterAgencyFirePerimeterHistory_All_Years_View/FeatureServer/0",
+  "n_features": 1,
+  "computed_acres_utm10": 78704.8,
+  "reported_acre_fields": {
+    "GIS_ACRES": 77762.14
+  },
+  "candidate_date_fields": {
+    "DATE_CUR": "20191110"
+  },
+  "bounds_wgs84_minx_miny_maxx_maxy": [
+    -122.897144025803,
+    38.5278949953115,
+    -122.655782718735,
+    38.8160073448173
+  ],
+  "columns": [
+    "geometry",
+    "OBJECTID",
+    "IRWINID",
+    "FORID",
+    "INCIDENT",
+    "GIS_ACRES",
+    "UNQE_FIRE_ID",
+    "DATE_CUR",
+    "FIRE_YEAR_INT",
+    "UNIT_ID",
+    "POO_RESP_I",
+    "LOCAL_NUM",
+    "FEATURE_CA",
+    "MAP_METHOD",
+    "COMMENTS",
+    "GEO_ID",
+    "SOURCE",
+    "AGENCY",
+    "FIRE_YEAR",
+    "GlobalID",
+    "_area"
+  ]
+}

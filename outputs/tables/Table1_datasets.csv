@@ -1,0 +1,14 @@
+Dataset,Source / product,Native resolution / unit,Temporal coverage,Role in analysis
+Fire perimeter (Kincade 2019),WFIGS/NIFC InterAgency Fire Perimeter History,Vector polygon,2019 incident,"Study-area definition; inside/outside masks (77,762 GIS acres)"
+Structure damage (DINS),CAL FIRE POSTFIRE_MASTER_DATA_SHARE,Point (per structure),Post-fire 2019 survey,"Community exposure context (1,568 inspected; 374 destroyed)"
+Vineyard fields,DWR i15 Statewide Crop Mapping 2019 (SYMB_CLASS = V),Vector polygon,2019 growing season,"Agricultural exposure unit (4,581 fields / 8,813.2 ha in AOI)"
+Digital elevation model,USGS 3DEP 10 m (Google Earth Engine),10 m raster,Static,"Elevation, slope, aspect covariates; hillshade basemap"
+Burn severity (dNBR),Sentinel-2 SR Harmonized; Landsat-8 C2 L2 (cross-check),20 m (S2) / 30 m (L8),Pre 2019-09-01/10-22; post 2019-11-10/12-15,Primary outcome (dNBR = NBR_pre - NBR_post)
+Evapotranspiration,OpenET ensemble (CONUS gridMET monthly v2.1),30 m monthly (mm),Apr-Oct 2019,Pre-fire water-use / canopy status covariate & outcome
+Surface reflectance indices,"Sentinel-2 SR Harmonized (NDMI, NDVI)",20 m,2018-2021 growing seasons,Pre-fire moisture/vigour; NDVI recovery trajectories
+Fire weather,gridMET (IDAHO_EPSCOR/GRIDMET),~4 km daily,2019-10-23 to 11-06,"RH, VPD, wind context for event onset"
+Soils,USDA NRCS SSURGO (Soil Data Access),Map-unit polygon,Static,Available water capacity (AWC) covariate
+Smoke plumes,NOAA/NESDIS HMS smoke polygons (GOES + polar),Daily analyst polygon,2019-10-23 to 11-10,Potential overhead smoke exposure (not taint)
+Road network,OpenStreetMap (Overpass snapshot [date:2019-10-23]),Vector graph,2019-10-23,Transport access & topology (geometry only)
+3-D structure inventory,OpenTopography; USGS 3DEP LPC/TNM; GEDI L2A (GEE),Point cloud / 25 m footprint,2003-2024 (airborne); 2019-2023 (GEDI),Structural-data feasibility context (no event-day fuels)
+Ignition & regulatory record,CAL FIRE cause release; CPUC SED investigation & Resolution SED-6,Document,2020-2021,"Documented PG&E electrical initiation (cited, not re-derived)"

@@ -1,0 +1,15 @@
+{
+  "n_vine_pixels": 49426,
+  "n_wild_pixels": 746849,
+  "mean_dnbr_vine": 0.1302146166563034,
+  "mean_dnbr_wild": 0.3371163606643677,
+  "median_dnbr_vine": 0.127129927277565,
+  "median_dnbr_wild": 0.2838284969329834,
+  "ttest_t": -109.45254664786073,
+  "ttest_p": 0.0,
+  "n_vineyard_fields": 2622,
+  "vineyard_area_ha": 5798.276601639293,
+  "n_edge_segments": 2000,
+  "n_transect_points_valid": 22000,
+  "elapsed_s": 104.7985258102417
+}

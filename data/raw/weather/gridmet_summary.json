@@ -1,0 +1,32 @@
+{
+  "vars": [
+    "tmmn",
+    "tmmx",
+    "rmin",
+    "rmax",
+    "vs",
+    "th",
+    "pr",
+    "sph",
+    "vpd",
+    "erc",
+    "bi",
+    "fm100",
+    "fm1000",
+    "etr"
+  ],
+  "window": [
+    "2019-10-10",
+    "2019-11-07"
+  ],
+  "n_days": 28,
+  "point": [
+    -122.78,
+    38.79
+  ],
+  "files": [
+    "gridmet_point_geyserville.csv",
+    "gridmet_aoi_mean_daily.csv",
+    "gridmet_wind_daily.tif"
+  ]
+}

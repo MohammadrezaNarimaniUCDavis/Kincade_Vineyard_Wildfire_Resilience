@@ -1,0 +1,128 @@
+{
+  "growing_season_window": "Apr 1 - Sep 30 (month-matched)",
+  "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "baseline_year": 2019,
+  "n_s2_scenes_by_year": {
+    "2015": 7,
+    "2016": 63,
+    "2017": 109,
+    "2018": 222,
+    "2019": 232,
+    "2020": 233,
+    "2021": 252
+  },
+  "n_fields_total": 4581,
+  "n_inside": 1327,
+  "n_outside": 3254,
+  "group_means": [
+    {
+      "group": "inside",
+      "n_fields": 1327,
+      "area_ha": 2313.7,
+      "mean_NDVI_2015": 0.42302616654850833,
+      "mean_NDVI_2016": 0.419692406020136,
+      "mean_NDVI_2017": 0.4143895234078492,
+      "mean_NDVI_2018": 0.4108618395621476,
+      "mean_NDVI_2019": 0.4281530421481611,
+      "mean_NDVI_2020": 0.37777166921042066,
+      "mean_NDVI_2021": 0.34065669524400205,
+      "mean_recov_2020_ratio": 0.8917661633965814,
+      "mean_recov_2021_ratio": 0.8145396954408743
+    },
+    {
+      "group": "outside",
+      "n_fields": 3254,
+      "area_ha": 6499.5,
+      "mean_NDVI_2015": 0.4267556911448216,
+      "mean_NDVI_2016": 0.4220321266323479,
+      "mean_NDVI_2017": 0.41925388246742934,
+      "mean_NDVI_2018": 0.4115742848090249,
+      "mean_NDVI_2019": 0.43270464850247053,
+      "mean_NDVI_2020": 0.3883305403868305,
+      "mean_NDVI_2021": 0.35868664697809893,
+      "mean_recov_2020_ratio": 0.9095520016808661,
+      "mean_recov_2021_ratio": 0.85426007436666
+    }
+  ],
+  "inside_vs_outside_tests": [
+    {
+      "variable": "NDVI_2019",
+      "n_inside": 1327,
+      "n_outside": 3254,
+      "mean_inside": 0.4281530421481611,
+      "mean_outside": 0.43270464850247053,
+      "diff_in_minus_out": -0.0045516063543094565,
+      "welch_t": -1.5913196190099343,
+      "p_value": 0.11164758919999236
+    },
+    {
+      "variable": "NDVI_2020",
+      "n_inside": 1327,
+      "n_outside": 3254,
+      "mean_inside": 0.37777166921042066,
+      "mean_outside": 0.3883305403868305,
+      "diff_in_minus_out": -0.010558871176409856,
+      "welch_t": -4.091671553119683,
+      "p_value": 4.3959612859899396e-05
+    },
+    {
+      "variable": "NDVI_2021",
+      "n_inside": 1327,
+      "n_outside": 3254,
+      "mean_inside": 0.34065669524400205,
+      "mean_outside": 0.35868664697809893,
+      "diff_in_minus_out": -0.018029951734096883,
+      "welch_t": -7.684343742845809,
+      "p_value": 2.1284143165692983e-14
+    },
+    {
+      "variable": "drop_2019_2020",
+      "n_inside": 1327,
+      "n_outside": 3254,
+      "mean_inside": -0.05038137293774038,
+      "mean_outside": -0.044374108115640055,
+      "diff_in_minus_out": -0.006007264822100324,
+      "welch_t": -3.3957509771220256,
+      "p_value": 0.0006941518629901774
+    },
+    {
+      "variable": "drop_2019_2021",
+      "n_inside": 1327,
+      "n_outside": 3254,
+      "mean_inside": -0.08749634690415897,
+      "mean_outside": -0.07401800152437163,
+      "diff_in_minus_out": -0.013478345379787343,
+      "welch_t": -5.328375051278988,
+      "p_value": 1.0812974544448066e-07
+    },
+    {
+      "variable": "recov_2020_ratio",
+      "n_inside": 1327,
+      "n_outside": 3254,
+      "mean_inside": 0.8917661633965814,
+      "mean_outside": 0.9095520016808661,
+      "diff_in_minus_out": -0.017785838284284705,
+      "welch_t": -4.095511460339409,
+      "p_value": 4.3292164327687245e-05
+    },
+    {
+      "variable": "recov_2021_ratio",
+      "n_inside": 1327,
+      "n_outside": 3254,
+      "mean_inside": 0.8145396954408743,
+      "mean_outside": 0.85426007436666,
+      "diff_in_minus_out": -0.039720378925785615,
+      "welch_t": -6.365160114067036,
+      "p_value": 2.2705400270340276e-10
+    }
+  ],
+  "note": "Growing-season NDVI from 2015-2021 (S2 SR harmonized; 2015 scene count is low because S2A launched mid-2015). 2019 Apr-Sep is fully prefire (Kincade ignition 2019-10-23); 2020 and 2021 are post-fire recovery seasons. Recovery ratios use 2019 as the prefire baseline."
+}

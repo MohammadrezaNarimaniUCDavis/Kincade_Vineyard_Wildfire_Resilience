@@ -1,0 +1,37 @@
+# Conda environment for the Kincade Multisystem Resilience project.
+# Env name "gee" matches the pipeline commands (conda run -n gee ...).
+# A full, exact solve snapshot is archived at environment/gee_env_snapshot.yml.
+name: gee
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - earthengine-api
+  - geemap
+  - numpy
+  - pandas
+  - scipy
+  - statsmodels
+  - scikit-learn
+  - geopandas
+  - shapely
+  - fiona
+  - pyproj
+  - rasterio
+  - rtree
+  - libpysal
+  - esda
+  - osmnx
+  - networkx
+  - matplotlib
+  - seaborn
+  - contextily
+  - requests
+  - pyyaml
+  - openpyxl
+  - tqdm
+  - pip
+  - pip:
+      - pygam
+# External (not conda): pandoc >= 3.x and a LaTeX engine (xelatex/pdflatex) for
+# manuscript conversion. See docs/REPRODUCIBILITY.md.

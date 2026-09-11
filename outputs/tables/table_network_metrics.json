@@ -1,0 +1,24 @@
+{
+  "network_provenance": "OSM historical snapshot via Overpass [date:2019-10-23]; osmnx graph_from_polygon network_type=drive",
+  "aoi_buffer_m": 5000.0,
+  "n_nodes": 4348,
+  "n_edges": 10036,
+  "total_road_length_km": 1581.9,
+  "major_road_length_km": 321.6,
+  "n_deadend_nodes": 1487,
+  "n_intersection_nodes_deg3plus": 2626,
+  "frac_deadend_nodes": 0.342,
+  "betweenness_sample_pairs": 400,
+  "max_edge_betweenness": 0.018078112854321805,
+  "vineyard_access": {
+    "n_fields": 4581,
+    "median_dist_nearest_node_m": 404.4,
+    "median_dist_nearest_deadend_m": 591.6,
+    "median_dist_major_road_m": 719.5,
+    "mean_dist_major_road_m": 1204.0
+  },
+  "caveats": [
+    "Metrics describe road-network geometry/topology only; no traffic volumes are used.",
+    "Edge betweenness is approximate (sampled node pairs, length-weighted)."
+  ]
+}

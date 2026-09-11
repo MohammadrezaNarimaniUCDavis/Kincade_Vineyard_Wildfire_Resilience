@@ -1,0 +1,98 @@
+# Central project configuration — Kincade Multisystem Resilience
+# All scripts read paths and parameters from this file. Do not hard-code.
+
+project:
+  name: kincade_multisystem_resilience
+  short_name: Kincade
+  random_seed: 42
+  target_journal: "Frontiers in Sustainability"
+  section: "Resilience"
+  research_topic: "Urban Informatics and Planning for Sustainable & Resilient Cities: Data, Design, and Decision"
+  article_type: "Original Research"
+
+crs:
+  analysis: "EPSG:26910"    # NAD83 / UTM zone 10N (Sonoma County metric)
+  geographic: "EPSG:4326"
+
+study_area:
+  incident_name: "KINCADE"
+  dins_incident_like: "KINCADE"
+  event_start: "2019-10-23"
+  event_end: "2019-11-06"
+  ignition_approx: [-122.780, 38.793]  # near Geyserville; verify from CAL FIRE / CPUC
+  # Nested extents (meters); refine after perimeter download
+  buffers_m:
+    core_fire: 0
+    vineyard_context: 2000
+    lidar: 1000
+    transport: 5000
+    smoke: 50000
+    community: 10000
+
+temporal:
+  historical_baseline: ["2016-01-01", "2018-12-31"]
+  prefire_growing_seasons: ["2017-04-01", "2019-09-30"]
+  growing_season_2019: ["2019-04-01", "2019-10-22"]
+  immediate_prefire: ["2019-09-01", "2019-10-22"]
+  event: ["2019-10-23", "2019-11-06"]
+  immediate_postfire: ["2019-11-07", "2019-12-31"]
+  early_recovery: ["2020-01-01", "2020-12-31"]
+  medium_recovery: ["2021-01-01", "2022-12-31"]
+  hrrr_event: ["2019-10-23", "2019-11-06"]
+  hrrr_high_frequency: ["2019-10-23", "2019-10-28"]
+
+gee:
+  project: null
+  s2_collection: "COPERNICUS/S2_SR_HARMONIZED"
+  s2_cloud_prob: "COPERNICUS/S2_CLOUD_PROBABILITY"
+  cloud_prob_threshold: 40
+  dem: "USGS/3DEP/10m"
+  landsat_l2: ["LANDSAT/LC08/C02/T1_L2"]
+  openet_ensemble: "projects/openet/assets/ensemble/conus/gridmet/monthly/v2_1"
+  gridmet: "IDAHO_EPSCOR/GRIDMET"
+  era5_land: "ECMWF/ERA5_LAND/HOURLY"
+  export_scale_m: 30
+  dem_scale_m: 10
+  severity_scale_m: 30
+
+vineyards:
+  dwr_crop_2019_mapserver: "https://gis.water.ca.gov/arcgis/rest/services/Planning/i15_Crop_Mapping_2019/MapServer"
+  # Crop codes refined after attribute inspection
+  grape_class_keywords: ["Grape", "Vineyard", "Wine", "Raisin", "Table"]
+
+wfigs:
+  rest_url: "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Interagency_Perimeters/FeatureServer/0"
+
+dins:
+  rest_url: "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/POSTFIRE_MASTER_DATA_SHARE/FeatureServer/0"
+
+burn_severity:
+  dnbr_scale: 1000
+  # Key & Benson scaled dNBR breaks — interpret cautiously over vineyards
+  severity_breaks: [-100, 99, 269, 439, 2000]
+  severity_labels: ["Unburned/Low", "Low", "Moderate", "High"]
+
+rdd:
+  primary_outcome: "continuous_dNBR"
+  signed_distance_m: [-300, -150, -100, -60, -30, 0, 30, 60, 100, 150, 300]
+  bandwidths_m: [30, 60, 100, 150, 300]
+  primary_bandwidth_m: 100
+
+model:
+  spatial_block_size_m: 1000
+  n_folds: 5
+  bayesian_backend: "pymc_hsgp"   # INLA if available; else PyMC HSGP
+
+paths:
+  data_raw: "data/raw"
+  data_interim: "data/interim"
+  data_processed: "data/processed"
+  data_external: "data/external"
+  data_metadata: "data/metadata"
+  outputs_figures: "outputs/figures"
+  outputs_tables: "outputs/tables"
+  outputs_maps: "outputs/maps"
+  outputs_qa: "outputs/qa"
+  outputs_logs: "outputs/logs"
+  manifest: "data/data_manifest.csv"
+  result_registry: "outputs/result_registry.csv"

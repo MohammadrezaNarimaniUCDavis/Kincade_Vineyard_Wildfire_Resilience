@@ -1,0 +1,25 @@
+{
+  "exposure_type": "POTENTIAL atmospheric smoke exposure (overhead HMS smoke plumes); NOT smoke taint",
+  "source": "NOAA/NESDIS HMS Smoke Polygons (GOES + polar), daily shapefiles",
+  "window": {
+    "start": "2019-10-23",
+    "end": "2019-11-10",
+    "n_days_requested": 19,
+    "n_days_with_smoke_over_aoi": 9
+  },
+  "n_vineyard_fields": 4581,
+  "total_vineyard_area_ha": 8813.2,
+  "n_fields_with_any_smoke_day": 4581,
+  "mean_smoke_days_per_field": 7.78,
+  "max_smoke_days_per_field": 9,
+  "total_hectare_smoke_days": 69101.6,
+  "density_weights": {
+    "Light": 1,
+    "Medium": 2,
+    "Heavy": 3
+  },
+  "caveats": [
+    "HMS smoke polygons indicate overhead smoke detected in satellite imagery; they do not measure ground-level PM2.5 or grape smoke taint.",
+    "Plume polygons are regional and analyst-drawn; a field flagged as exposed on a day means smoke was overhead at some point that day."
+  ]
+}
