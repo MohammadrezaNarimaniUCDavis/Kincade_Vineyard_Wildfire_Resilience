@@ -135,7 +135,7 @@ See [`docs/DATA.md`](docs/DATA.md).
 }
 ```
 
-**Dataset:**
+**Dataset (Zenodo):**
 
 ```bibtex
 @misc{kincade2026data,
@@ -147,7 +147,25 @@ See [`docs/DATA.md`](docs/DATA.md).
   year      = {2026},
   publisher = {Zenodo},
   version   = {1.0.0},
-  doi       = {10.5281/zenodo.22713181}
+  doi       = {10.5281/zenodo.22713181},
+  url       = {https://doi.org/10.5281/zenodo.22713181}
+}
+```
+
+**Code (this repository):**
+
+```bibtex
+@misc{kincade2026code,
+  author       = {Farajpoor, Parastoo and Khoshnevis Ansari, Hanieh and
+                   Ardebili Pour, Mahla and Ghiasi, Mohammad Bagher and
+                   Narimani, Mohammadreza},
+  title        = {Kincade Vineyard Wildfire Resilience: Public Replication Code
+                   for Vineyard Wildfire Impacts and Resilience during the
+                   2019 Kincade Fire},
+  year         = {2026},
+  howpublished = {GitHub repository},
+  url          = {https://github.com/MohammadrezaNarimaniUCDavis/Kincade_Vineyard_Wildfire_Resilience},
+  note         = {MIT License; companion to Zenodo dataset doi:10.5281/zenodo.22713181}
 }
 ```
 
