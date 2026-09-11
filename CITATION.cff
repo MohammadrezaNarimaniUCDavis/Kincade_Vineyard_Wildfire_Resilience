@@ -5,14 +5,20 @@ type: software
 authors:
   - family-names: Farajpoor
     given-names: Parastoo
+    affiliation: "Department of Biological and Agricultural Engineering, University of California, Davis"
   - family-names: Khoshnevis Ansari
     given-names: Hanieh
+    affiliation: "Department of Civil and Environmental Engineering, University of California, Davis"
   - family-names: Ardebili Pour
     given-names: Mahla
+    affiliation: "Department of Civil and Environmental Engineering, University of California, Davis"
   - family-names: Ghiasi
     given-names: Mohammad Bagher
+    affiliation: "Department of Electrical and Computer Engineering, University of California, Davis"
   - family-names: Narimani
     given-names: Mohammadreza
+    affiliation: "Department of Biological and Agricultural Engineering, University of California, Davis"
+    email: mnarimani@ucdavis.edu
 version: "1.0.0"
 date-released: "2026-09-11"
 license: MIT
@@ -30,13 +36,18 @@ preferred-citation:
   authors:
     - family-names: Farajpoor
       given-names: Parastoo
+      affiliation: "Department of Biological and Agricultural Engineering, University of California, Davis"
     - family-names: Khoshnevis Ansari
       given-names: Hanieh
+      affiliation: "Department of Civil and Environmental Engineering, University of California, Davis"
     - family-names: Ardebili Pour
       given-names: Mahla
+      affiliation: "Department of Civil and Environmental Engineering, University of California, Davis"
     - family-names: Ghiasi
       given-names: Mohammad Bagher
+      affiliation: "Department of Electrical and Computer Engineering, University of California, Davis"
     - family-names: Narimani
       given-names: Mohammadreza
+      affiliation: "Department of Biological and Agricultural Engineering, University of California, Davis"
   title: "Multisource Remote Sensing and Geospatial Analysis of Vineyard Wildfire Impacts and Resilience: The 2019 Kincade Fire"
   year: 2026

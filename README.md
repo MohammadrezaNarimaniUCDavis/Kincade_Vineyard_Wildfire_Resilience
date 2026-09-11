@@ -9,9 +9,16 @@ California).
 > Vineyard Wildfire Impacts and Resilience: The 2019 Kincade Fire.*
 > Preprint submitted to *Frontiers in Sustainability*.
 
-**Authors:** Parastoo Farajpoor; Hanieh Khoshnevis Ansari; Mahla Ardebili Pour;
-Mohammad Bagher Ghiasi; Mohammadreza Narimani (corresponding)  
-**Affiliation:** University of California, Davis  
+**Authors and affiliations**
+
+| Author | Affiliation |
+|---|---|
+| Parastoo Farajpoor | Department of Biological and Agricultural Engineering, University of California, Davis |
+| Hanieh Khoshnevis Ansari | Department of Civil and Environmental Engineering, University of California, Davis |
+| Mahla Ardebili Pour | Department of Civil and Environmental Engineering, University of California, Davis |
+| Mohammad Bagher Ghiasi | Department of Electrical and Computer Engineering, University of California, Davis |
+| Mohammadreza Narimani (corresponding) | Department of Biological and Agricultural Engineering, University of California, Davis |
+
 **Contact:** mnarimani@ucdavis.edu
 
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22713181-blue.svg)](https://doi.org/10.5281/zenodo.22713181)
