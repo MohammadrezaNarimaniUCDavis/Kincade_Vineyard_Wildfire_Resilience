@@ -14,12 +14,12 @@ Mohammad Bagher Ghiasi; Mohammadreza Narimani (corresponding)
 **Affiliation:** University of California, Davis  
 **Contact:** mnarimani@ucdavis.edu
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXXXX-blue.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22713181-blue.svg)](https://doi.org/10.5281/zenodo.22713181)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 | Resource | Link |
 |---|---|
-| **Dataset (Zenodo)** | https://doi.org/10.5281/zenodo.XXXXXXX |
+| **Dataset (Zenodo)** | https://doi.org/10.5281/zenodo.22713181 |
 | **This code** | https://github.com/MohammadrezaNarimaniUCDavis/Kincade_Vineyard_Wildfire_Resilience |
 
 This repository is the **public replication package**. It contains only the
@@ -95,7 +95,7 @@ python src/visualization/42_make_main_figures.py
 ```
 
 Large analysis rasters (burn severity, DEM, OpenET) are on **Zenodo**
-(https://doi.org/10.5281/zenodo.XXXXXXX). Place them under `data/raw/gee/` if you
+(https://doi.org/10.5281/zenodo.22713181). Place them under `data/raw/gee/` if you
 need offline map regeneration.
 
 ---
@@ -140,7 +140,7 @@ See [`docs/DATA.md`](docs/DATA.md).
   year      = {2026},
   publisher = {Zenodo},
   version   = {1.0.0},
-  doi       = {10.5281/zenodo.XXXXXXX}
+  doi       = {10.5281/zenodo.22713181}
 }
 ```
 

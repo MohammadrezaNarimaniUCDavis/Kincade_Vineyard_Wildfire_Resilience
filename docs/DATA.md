@@ -32,7 +32,7 @@ python src/download/09_s2_rgb_composites_gee.py
 
 after authenticating Google Earth Engine.
 
-Dataset DOI: https://doi.org/10.5281/zenodo.XXXXXXX
+Dataset DOI: https://doi.org/10.5281/zenodo.22713181
 
 ## Licenses of source products
 

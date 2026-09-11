@@ -23,7 +23,7 @@ contact:
     given-names: Mohammadreza
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.XXXXXXX"
+    value: "10.5281/zenodo.22713181"
     description: Zenodo dataset DOI
 preferred-citation:
   type: article
