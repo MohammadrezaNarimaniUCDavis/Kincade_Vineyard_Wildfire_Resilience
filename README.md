@@ -4,9 +4,9 @@ Public replication package for an **open geospatial assessment** of vineyard
 wildfire impacts and resilience during the **2019 Kincade Fire** (Sonoma County,
 California).
 
-> Farajpoor, P., Khoshnevis Ansari, H., Ardebili Pour, M., Ghiasi, M. B., &
-> Narimani, M. (2026). *Multisource Remote Sensing and Geospatial Analysis of
-> Vineyard Wildfire Impacts and Resilience: The 2019 Kincade Fire.*
+> Farajpoor, P., Ardebili Pour, M., Ghiasi, M. B., & Narimani, M. (2026).
+> *Multisource Remote Sensing and Geospatial Analysis of Vineyard Wildfire
+> Impacts and Resilience: The 2019 Kincade Fire.*
 > Preprint submitted to *Frontiers in Sustainability*.
 
 **Authors and affiliations**
@@ -14,7 +14,6 @@ California).
 | Author | Affiliation |
 |---|---|
 | Parastoo Farajpoor | Department of Biological and Agricultural Engineering, University of California, Davis |
-| Hanieh Khoshnevis Ansari | Department of Civil and Environmental Engineering, University of California, Davis |
 | Mahla Ardebili Pour | Department of Civil and Environmental Engineering, University of California, Davis |
 | Mohammad Bagher Ghiasi | Department of Electrical and Computer Engineering, University of California, Davis |
 | Mohammadreza Narimani (corresponding) | Department of Biological and Agricultural Engineering, University of California, Davis |
@@ -125,9 +124,8 @@ See [`docs/DATA.md`](docs/DATA.md).
 
 ```bibtex
 @article{kincade2026vineyard,
-  author  = {Farajpoor, Parastoo and Khoshnevis Ansari, Hanieh and
-              Ardebili Pour, Mahla and Ghiasi, Mohammad Bagher and
-              Narimani, Mohammadreza},
+  author  = {Farajpoor, Parastoo and Ardebili Pour, Mahla and
+              Ghiasi, Mohammad Bagher and Narimani, Mohammadreza},
   title   = {Multisource Remote Sensing and Geospatial Analysis of Vineyard
               Wildfire Impacts and Resilience: The 2019 Kincade Fire},
   year    = {2026},
@@ -139,9 +137,8 @@ See [`docs/DATA.md`](docs/DATA.md).
 
 ```bibtex
 @misc{kincade2026data,
-  author    = {Farajpoor, Parastoo and Khoshnevis Ansari, Hanieh and
-                Ardebili Pour, Mahla and Ghiasi, Mohammad Bagher and
-                Narimani, Mohammadreza},
+  author    = {Farajpoor, Parastoo and Ardebili Pour, Mahla and
+                Ghiasi, Mohammad Bagher and Narimani, Mohammadreza},
   title     = {Kincade Vineyard Wildfire Resilience: Analysis-Ready Geospatial
                 Products for the 2019 Kincade Fire},
   year      = {2026},
@@ -156,9 +153,8 @@ See [`docs/DATA.md`](docs/DATA.md).
 
 ```bibtex
 @misc{kincade2026code,
-  author       = {Farajpoor, Parastoo and Khoshnevis Ansari, Hanieh and
-                   Ardebili Pour, Mahla and Ghiasi, Mohammad Bagher and
-                   Narimani, Mohammadreza},
+  author       = {Farajpoor, Parastoo and Ardebili Pour, Mahla and
+                   Ghiasi, Mohammad Bagher and Narimani, Mohammadreza},
   title        = {Kincade Vineyard Wildfire Resilience: Public Replication Code
                    for Vineyard Wildfire Impacts and Resilience during the
                    2019 Kincade Fire},
